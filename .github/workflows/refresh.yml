@@ -12,7 +12,7 @@ name: Refresh SF-133
 # Why the second one exists. MAX.gov's robots.txt says `User-agent: * / Disallow: /`, which disallows every
 # automated visit to the site. The data is public and OMB publishes it for people to download, but a
 # scheduled job is a robot. Until the owner decides to set that aside, or OMB says it is fine, this workflow
-# skips with a notice and requests nothing from MAX.gov. HANDOFF.md, "Automatic refresh", has the options.
+# skips with a notice and requests nothing from MAX.gov. HANDOFF.md explains it.
 #
 # Politeness when it does run: a plain User-Agent that names this repo, one request at a time with a 6 second
 # pause, one page per fiscal year, and the workbooks that actually changed (usually none). It stops at the first
@@ -55,7 +55,7 @@ jobs:
             go=false
           fi
           if [ "${SF133_OVERRIDE_ROBOTS}" != "yes" ]; then
-            echo "::notice::MAX.gov's robots.txt disallows automated access (Disallow: /). The refresh does not contact MAX.gov until the repository variable SF133_OVERRIDE_ROBOTS is set to yes. See HANDOFF.md, Automatic refresh."
+            echo "::notice::MAX.gov's robots.txt disallows automated access (Disallow: /). The refresh does not contact MAX.gov until the repository variable SF133_OVERRIDE_ROBOTS is set to yes. See HANDOFF.md."
             go=false
           fi
           echo "go=$go" >> "$GITHUB_OUTPUT"

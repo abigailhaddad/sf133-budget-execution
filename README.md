@@ -7,11 +7,9 @@ the workbooks' `Raw Data` sheets into one table, checks it against the source, a
 - Dataset: https://huggingface.co/datasets/abigailhaddad/sf133-budget-execution
 - Browse it: https://sf133-budget-execution.abigailhaddad.com
 - Dataset card: written from `dataset_card/README.template.md` and the tables by `make_card.py`
-- Operator guide: [HANDOFF.md](HANDOFF.md)
+- Operator guide: [HANDOFF.md](HANDOFF.md). Earlier mistakes to watch for: [docs/HISTORY.md](docs/HISTORY.md)
 
-A weekly GitHub Action (`refresh.yml`) can check OMB's pages and refresh the data without anyone running a
-script. **It is switched off until the owner sets a repository variable**, because MAX.gov's robots.txt
-disallows automated access. See [HANDOFF.md](HANDOFF.md), "Automatic refresh". The manual route below always works.
+A weekly GitHub Action (`refresh.yml`) checks OMB's pages and refreshes the data without anyone running a script. It needs the repository variable `SF133_OVERRIDE_ROBOTS` set to `yes`, because MAX.gov's robots.txt disallows automated access. See [HANDOFF.md](HANDOFF.md). The manual route below always works.
 
 ## Refresh automatically
 
@@ -48,7 +46,11 @@ python3 publish_to_hf.py                 # dry run; add --upload to commit
 ```
 
 `SF133_RAW` defaults to `~/Documents/repos/apportion/raw_data`, where this was first built. A new owner
-has no such folder and has to download the workbooks (HANDOFF.md says how). OMB updates the workbooks
+has no such folder and has to download the workbooks from MAX.gov, one page per fiscal year at
+`https://portal.max.gov/portal/document/SF133/Budget/FY%20<year>%20-%20SF%20133%20Reports%20on%20Budget%20Execution%20and%20Budgetary%20Resources.html`.
+Copy the link of any workbook on that page and drop the file name for the base URL that `download_workbooks.sh`
+takes. The script waits 3 seconds between files, uses an honest User-Agent and stops on a 403 or 429. It has
+only been tested on FY2026. Do it over a few days. OMB updates the workbooks
 during the year, so `source_updated` in the data is the as-of date.
 
 `evidence/` holds the outputs of the checks from the published build.
