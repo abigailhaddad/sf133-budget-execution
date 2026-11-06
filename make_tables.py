@@ -6,12 +6,13 @@ sf133_accounts.parquet   one row per fiscal year x TAFS x allocation x financing
 sf133_workbooks.parquet  one row per source workbook: rows, units, months with data, update date.
 """
 import json
+import os
 from pathlib import Path
 
 import duckdb
 import pandas as pd
 
-BUILD = Path("build")
+BUILD = Path(os.environ.get("SF133_BUILD", "build"))
 LINES = BUILD / "sf133_lines.parquet"
 
 # Headline lines, named as the SF-133 names them (checked against LINE_DESC in the source).
@@ -28,9 +29,10 @@ HEADLINE = {
 GIFT_RULE = r"(?i)\b(gift|gifts|donation|donations|bequest|bequests)\b"
 
 
-def main():
+def build_accounts(lines_path):
+    """The accounts table and the latest reported month per fiscal year, from a lines parquet file."""
     con = duckdb.connect()
-    con.execute(f"create view l as select * from read_parquet('{LINES}')")
+    con.execute(f"create view l as select * from read_parquet('{lines_path}')")
 
     # Latest month with any reported value per fiscal year (workbook-wide), in fiscal-year order.
     order = ["oct", "nov", "dec", "jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep"]
@@ -42,7 +44,6 @@ def main():
             if n:
                 got = m
         latest[fy] = got
-    pd.Series(latest).to_json(BUILD / "latest_month.json")
 
     keys = ["fiscal_year", "agency", "bureau", "tafs", "agency_code", "account_code",
             "allocation_code", "begin_year", "end_year", "availability", "financing"]
@@ -59,6 +60,12 @@ def main():
     acc = pd.concat(parts, ignore_index=True)
     acc["as_of_month"] = acc["fiscal_year"].map(latest)
     acc["is_gift_account"] = acc["tafs"].str.contains(GIFT_RULE, regex=True, na=False)
+    return acc, latest
+
+
+def main():
+    acc, latest = build_accounts(LINES)
+    pd.Series(latest).to_json(BUILD / "latest_month.json")
     acc.to_parquet(BUILD / "sf133_accounts.parquet", index=False, compression="zstd")
 
     rep = json.load(open(BUILD / "build_report.json"))

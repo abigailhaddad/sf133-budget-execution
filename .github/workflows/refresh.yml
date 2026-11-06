@@ -1,0 +1,137 @@
+name: Refresh SF-133
+
+# Checks OMB's SF-133 pages for new or revised workbooks, downloads only what changed, rebuilds only the
+# affected workbooks into the published tables, checks the result, and publishes ONE Hugging Face commit.
+# Nothing happens by hand once it is switched on. Exit green means "nothing changed" or "published";
+# red means something needs a person.
+#
+# TWO THINGS MUST BE SET before it contacts anyone:
+#   secret   HF_TOKEN                  a Hugging Face token with write access to the dataset
+#   variable SF133_OVERRIDE_ROBOTS     the word  yes  (see below)
+#
+# Why the second one exists. MAX.gov's robots.txt says `User-agent: * / Disallow: /`, which disallows every
+# automated visit to the site. The data is public and OMB publishes it for people to download, but a
+# scheduled job is a robot. Until the owner decides to set that aside, or OMB says it is fine, this workflow
+# skips with a notice and requests nothing from MAX.gov. HANDOFF.md, "Automatic refresh", has the options.
+#
+# Politeness when it does run: a plain User-Agent that names this repo, one request at a time with a 6 second
+# pause, one page per fiscal year, and the workbooks that actually changed (usually none). It stops at the first
+# 401, 403 or 429 and does not try again that day.
+
+on:
+  schedule:
+    - cron: "17 9 * * 1"        # Mondays, 09:17 UTC. OMB updates monthly; weekly is a light touch.
+  workflow_dispatch:
+    inputs:
+      include_past:
+        description: "Also check this many older fiscal years (the first Monday of each month does 2)"
+        required: false
+        default: "0"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: refresh-sf133
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      HF_TOKEN: ${{ secrets.HF_TOKEN }}
+      SF133_OVERRIDE_ROBOTS: ${{ vars.SF133_OVERRIDE_ROBOTS }}
+      SF133_PAUSE: "6"
+      SF133_BUILD: build
+      SF133_PUB: pub
+    steps:
+      - name: Is it switched on?
+        id: gate
+        run: |
+          go=true
+          if [ -z "$HF_TOKEN" ]; then
+            echo "::notice::HF_TOKEN is not set, so nothing can be published. Skipping the refresh."
+            go=false
+          fi
+          if [ "${SF133_OVERRIDE_ROBOTS}" != "yes" ]; then
+            echo "::notice::MAX.gov's robots.txt disallows automated access (Disallow: /). The refresh does not contact MAX.gov until the repository variable SF133_OVERRIDE_ROBOTS is set to yes. See HANDOFF.md, Automatic refresh."
+            go=false
+          fi
+          echo "go=$go" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/checkout@v4
+        if: steps.gate.outputs.go == 'true'
+
+      - uses: actions/setup-python@v5
+        if: steps.gate.outputs.go == 'true'
+        with:
+          python-version: "3.12"
+
+      - name: Install
+        if: steps.gate.outputs.go == 'true'
+        run: pip install -r requirements.txt
+
+      - name: Tests
+        if: steps.gate.outputs.go == 'true'
+        run: python -m pytest -q tests
+
+      - name: Get the published tables
+        if: steps.gate.outputs.go == 'true'
+        run: python fetch_published.py --out pub
+
+      - name: Ask OMB what changed
+        if: steps.gate.outputs.go == 'true'
+        id: check
+        run: |
+          past="${{ github.event.inputs.include_past }}"
+          if [ -z "$past" ] || [ "$past" = "0" ]; then
+            if [ "$(date -u +%d)" -le 7 ] && [ "$(date -u +%u)" = "1" ]; then past=2; else past=0; fi
+          fi
+          python check_updates.py --pub pub --out changes.json --include-past "$past"
+
+      - name: Nothing changed. Remember the versions OMB's pages show.
+        if: steps.gate.outputs.go == 'true' && steps.check.outputs.changed == 'false'
+        run: python publish_to_hf.py --state-only changes.json --upload
+
+      - name: Download the workbooks that changed
+        if: steps.gate.outputs.go == 'true' && steps.check.outputs.changed == 'true'
+        run: python download_changed.py --changes changes.json --raw raw_changed
+
+      - name: Rebuild only those workbooks into the published tables
+        if: steps.gate.outputs.go == 'true' && steps.check.outputs.changed == 'true'
+        run: python rebuild_changed.py --pub pub --raw raw_changed --changes changes.json --out build
+
+      - name: Check the rebuilt workbooks against their source
+        if: steps.gate.outputs.go == 'true' && steps.check.outputs.changed == 'true'
+        run: python verify_changed.py --lines build/sf133_lines.parquet --raw raw_changed --changes changes.json
+
+      - name: Publish (one commit)
+        if: steps.gate.outputs.go == 'true' && steps.check.outputs.changed == 'true'
+        run: python publish_to_hf.py --upload
+
+      - name: Summary
+        if: always() && steps.gate.outputs.go == 'true'
+        run: |
+          {
+            echo "### SF-133 refresh"
+            if [ -f changes.json ]; then
+              python - <<'PY'
+          import json
+          c = json.load(open("changes.json"))
+          print(f"- years checked: {c['years_checked']}")
+          print(f"- workbooks to download: {len(c['changed'])}")
+          for w in c["warnings"]:
+              print(f"- warning: {w}")
+          for p in c["problems"]:
+              print(f"- problem: {p}")
+          PY
+            fi
+            if [ -f build/refresh_report.json ]; then
+              python - <<'PY'
+          import json
+          r = json.load(open("build/refresh_report.json"))
+          print(f"- replaced {len(r['changed_workbooks'])} workbook(s) in {r['years_changed']}; guard problems: {r['guard_problems'] or 'none'}")
+          PY
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"

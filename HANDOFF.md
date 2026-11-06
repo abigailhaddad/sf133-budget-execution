@@ -8,8 +8,11 @@ The SF-133 for every federal account, month by month, FY2018 to FY2026 (3,060,95
 OMB posts it as 29 Excel workbooks per fiscal year on MAX.gov. This repo turns the workbooks into three
 tables, checks them against the source, and publishes them to Hugging Face in one commit.
 
-**Nothing refreshes on its own.** There is no scheduled job and no GitHub Action. Someone downloads the
-new workbooks and runs the scripts. OMB updates the workbooks during the year, so a keeper might do it
+**It can refresh on its own, but that is switched off.** A weekly GitHub Action, `refresh.yml`, checks OMB's
+pages, downloads only the workbooks that changed, rebuilds them into the published tables, checks the
+result and publishes one Hugging Face commit. It stays idle until two things are set, and one of them is a
+decision about MAX.gov's robots.txt: see "Automatic refresh" below. Until then, someone downloads the new
+workbooks and runs the scripts by hand. OMB updates the workbooks during the year, so a keeper might do it
 once a year, after September data, or more often.
 
 ## Where things live
@@ -17,7 +20,7 @@ once a year, after September data, or more often.
 | What | Where |
 |---|---|
 | The data | `abigailhaddad/sf133-budget-execution` on Hugging Face: `sf133_lines` (3,060,954 rows), `sf133_accounts` (77,771), `sf133_workbooks` (261) |
-| The dataset card (the README shown on Hugging Face) | `dataset_card/README.md`. `publish_to_hf.py` uploads it with the data |
+| The dataset card (the README shown on Hugging Face) | Written from `dataset_card/README.template.md` and the tables by `make_card.py`. `publish_to_hf.py` uploads it with the data |
 | This code | https://github.com/abigailhaddad/sf133-budget-execution |
 | A website to browse it | https://sf133-budget-execution.abigailhaddad.com, a Cloudflare Pages project named `sf133-budget-execution` |
 | Where the site comes from | A separate repo, `dataset-explorer`, config `configs/sf133.json`, built with `python3 scripts/build_sites.py sf133-budget-execution` into `dist-sites/sf133-budget-execution/`. **That repo is on one machine only; it has not been pushed to GitHub.** Get a copy from the previous owner |
@@ -26,7 +29,67 @@ once a year, after September data, or more often.
 The site reads the data from Hugging Face when the page loads, so a data refresh does not need a site
 redeploy. Redeploy the site only when its own files or config change.
 
-## Refreshing the data
+## Automatic refresh
+
+**What it does, every Monday at 09:17 UTC.** For the current fiscal year, the one before it and the next one
+(and two older years on the first Monday of the month) it asks OMB's page for that year, one request each,
+6 seconds apart. Each page says "last updated on <date>" and every workbook link carries a version number that
+goes up when OMB replaces the file. A workbook is "changed" if it is new, if its version differs from the one
+saved last time, or, on the first run, if the page's date is later than the OMB stamp in our data. Only those
+workbooks are downloaded, one at a time. They replace their rows in the published lines table; every other row
+stays exactly as published (the code proves that: untouched years must match to the cent or nothing is
+published). The accounts and workbooks tables and the card are rebuilt from the result, the replaced workbooks are
+checked against their source (row counts, the workbook's own "Agency Total" sheet, a spot check of 100+ rows), and
+one commit goes to Hugging Face. The saved versions live in the dataset at `state/source_state.json`, in the
+same commit as the data, so state and data can never disagree. If nothing changed it exits green; if the versions
+it saw differ from the saved ones, it uploads only that small file.
+
+**It is off, on purpose.** MAX.gov's robots.txt reads `User-agent: * / Disallow: /`: no automated access to
+any part of the site. The data is public and OMB posts it for downloading, but a scheduled job is a robot.
+I found this on 2026-11-06 and made three requests to MAX.gov in total (robots.txt and two fiscal-year pages) before
+stopping. The workflow therefore skips, with a notice, until **both** of these exist:
+
+| What | Where | Why |
+|---|---|---|
+| Secret `HF_TOKEN` | repository Settings, Secrets and variables, Actions | write access to the dataset |
+| Variable `SF133_OVERRIDE_ROBOTS` = `yes` | same page, Variables tab | the owner's decision to set robots.txt aside |
+
+The scripts check the variable too, so running them by hand also needs `SF133_OVERRIDE_ROBOTS=yes`. Your options,
+in the order I would try them: ask OMB's MAX.gov team whether a weekly check of 3 pages is acceptable or whether
+there is a feed; or decide yourself that it is, since the load is a few requests a week and every request stops at
+the first block; or keep refreshing by hand. Do not change the User-Agent or add retries around a block.
+
+**Scope.** Only workbooks named `FY<year>_SF133_MONTHLY_<agency>.xlsx` are matched file by file. That is FY2025 and
+FY2026 now, and will be every future year. FY2018, FY2023 and FY2024 were built from files named by number; a newer
+OMB page for those years only produces a warning in the run summary, and you rebuild them by hand.
+
+**The first run will re-download FY2025.** OMB's FY2025 page says "last updated 2025-12-11", and the published FY2025
+data carries the stamp 2025-12-03. The first run cannot tell whether that is a real revision, so it downloads the 29
+FY2025 workbooks (183 MB) and rebuilds the year. On my laptop, rehearsing with the same workbooks already on disk, the
+rebuild took 70 seconds and peaked at 2.5 GB of memory, and the verify step took 143 seconds and peaked at 1.1 GB. A
+GitHub runner has 7 GB of memory and 14 GB of disk, so it should fit, but I have not run it there. The rehearsal
+reproduced the published FY2025 rows and accounts exactly (374,711 and 9,219), and every check passed. FY2026's page date
+(2026-10-21) matches our data and needs nothing.
+
+**First manual run (do this before trusting the schedule).**
+1. Set `HF_TOKEN`. Leave `SF133_OVERRIDE_ROBOTS` unset and run the workflow by hand (Actions, Refresh SF-133, Run
+   workflow). It should skip with the two notices. That proves the gate.
+2. Set `SF133_OVERRIDE_ROBOTS` to `yes` and run it again. Watch the "Ask OMB what changed" step: it makes 3 requests
+   and should list 29 FY2025 workbooks. If a step answers 403 or 429, stop; GitHub's servers may be refused where a
+   laptop is not (see below).
+3. Read the run summary. The rebuild guard and the verify step must pass before the publish step runs.
+4. Open the dataset's commit history: one commit, "Refresh: replaced 29 workbook(s) in FY2025".
+
+**If GitHub's servers cannot reach MAX.gov** I could not test that from here. The fallback is to run the same scripts
+on any machine (the commands are in the README) with `HF_TOKEN` set.
+
+**What a red run means.** `check_updates.py` exit 1: the page layout is not what the code expects. Exit 2: the
+server blocked us; wait a day. Exit 3: the robots gate. `download_changed.py` exit 1: a workbook would not download
+or lacks the "Raw Data" and "TAFS detail" sheets. `rebuild_changed.py` exit 1: the guard refused (an untouched year
+moved, or a changed year lost more than 2% of its rows); the message names which. `verify_changed.py` exit 1: a
+replaced workbook does not match its source. None of these publishes anything.
+
+## Refreshing the data by hand
 
 1. **Get the workbooks.** MAX.gov has one page per fiscal year, at
    `https://portal.max.gov/portal/document/SF133/Budget/FY%20<year>%20-%20SF%20133%20Reports%20on%20Budget%20Execution%20and%20Budgetary%20Resources.html`.
@@ -85,8 +148,10 @@ redeploy. Redeploy the site only when its own files or config change.
    Face token with write access to the dataset's account, in `HF_TOKEN` or from `hf auth login`. The commit
    message names the first and last fiscal year in the build.
 
-5. **Update the card.** The per-year counts in `dataset_card/README.md` (rows, the accounts left out of
-   the apportionment site's totals) are written by hand. Recount them from the new build before you upload.
+5. **The card writes itself.** `publish_to_hf.py` builds the card from `dataset_card/README.template.md` and the
+   tables (`make_card.py`): the as-of table, the per-year totals, the row counts, the gift-account count. Edit the
+   template for wording. Two paragraphs are history and stay as typed: what the first build checked, and the
+   comparison with the apportionment site (FY2025).
 
 ## Known issues
 
@@ -125,8 +190,9 @@ The fix and the numbers are in https://github.com/abigailhaddad/apportionment/pu
 
 ## If someone else takes it over
 
-- **The dataset id.** `publish_to_hf.py` takes it from `SF133_HF_REPO` (default
-  `abigailhaddad/sf133-budget-execution`). Set the variable or change the default. The dataset card, the
+- **The dataset id.** `publish_to_hf.py` and `fetch_published.py` take it from `SF133_HF_REPO` (default
+  `abigailhaddad/sf133-budget-execution`). Set the variable or change the default. The refresh workflow needs
+  your own `HF_TOKEN` secret and, if you switch it on, the `SF133_OVERRIDE_ROBOTS` variable (see Automatic refresh). The dataset card, the
   README and the site's config also name it.
 - **Names in the card and README:** the GitHub repo, the explorer site, and the link to the apportionment
   analysis page, `https://apportionment-analysis.pages.dev`.

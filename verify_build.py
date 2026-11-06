@@ -39,7 +39,7 @@ def clean(s):
 
 def spot_sample(df, plan):
     """Random rows plus edge cases."""
-    rng = df.sample(n=60, random_state=133)
+    rng = df.sample(n=min(60, len(df)), random_state=133)
     edge = []
     monthcols = MONTHS
     neg = df[(df[monthcols].min(axis=1) < 0)]
@@ -87,6 +87,37 @@ def num(x):
     return None if x is None or x == "" else float(x)
 
 
+def spot_check(sample, path_of):
+    """Compare every field and month of the sampled rows with the cell in the source workbook,
+    read with openpyxl (a different reader than the build uses). Returns (fields checked, mismatches)."""
+    bad, checked = [], 0
+    for (fy, f), g in sample.groupby(["fiscal_year", "source_file"]):
+        cells = read_cells(path_of[(int(fy), f)], None, set(int(v) for v in g["source_row"]))
+        mult = 1000 if g["source_units"].iloc[0] == "thousands" else 1
+        for r in g.itertuples():
+            c = cells[int(r.source_row)]
+            for col, src in TEXT.items():
+                a, b = getattr(r, col), clean(c.get(src))
+                if col in ("agency_code", "account_code") and b is not None:
+                    b = str(b)
+                checked += 1
+                if (a if a == a else None) != b and not (a is None and b is None):
+                    bad.append((fy, f, int(r.source_row), col, a, b))
+            for mo in MONTHS:
+                a = getattr(r, mo)
+                v = num(c.get(MONTH_COL[mo]))
+                b = None if v is None else v * mult
+                checked += 1
+                a = None if a != a else a
+                if a is None:
+                    if b not in (None, 0):
+                        bad.append((fy, f, int(r.source_row), mo, a, b))
+                elif b is None or abs(a - b) > 0.005:
+                    # an unreported month is null in the table and may be 0 or blank in the cell
+                    bad.append((fy, f, int(r.source_row), mo, a, b))
+    return checked, bad
+
+
 def main():
     plan = pd.read_csv("workbooks.csv", dtype=str)
     path_of = {(int(r.fiscal_year), r.file): r.path for r in plan.itertuples()}
@@ -127,31 +158,7 @@ def main():
     # 3. spot check
     sample = spot_sample(df, plan)
     report["spot_rows"] = int(len(sample))
-    bad, checked = [], 0
-    for (fy, f), g in sample.groupby(["fiscal_year", "source_file"]):
-        cells = read_cells(path_of[(int(fy), f)], None, set(int(v) for v in g["source_row"]))
-        mult = 1000 if g["source_units"].iloc[0] == "thousands" else 1
-        for r in g.itertuples():
-            c = cells[int(r.source_row)]
-            for col, src in TEXT.items():
-                a, b = getattr(r, col), clean(c.get(src))
-                if col in ("agency_code", "account_code") and b is not None:
-                    b = str(b)
-                checked += 1
-                if (a if a == a else None) != b and not (a is None and b is None):
-                    bad.append((fy, f, int(r.source_row), col, a, b))
-            for mo in MONTHS:
-                a = getattr(r, mo)
-                v = num(c.get(MONTH_COL[mo]))
-                b = None if v is None else v * mult
-                checked += 1
-                a = None if a != a else a
-                if a is None:
-                    if b not in (None, 0):
-                        bad.append((fy, f, int(r.source_row), mo, a, b))
-                elif b is None or abs(a - b) > 0.005:
-                    # an unreported month is null in the table and may be 0 or blank in the cell
-                    bad.append((fy, f, int(r.source_row), mo, a, b))
+    checked, bad = spot_check(sample, path_of)
     report["spot_fields_checked"] = checked
     report["spot_mismatches"] = len(bad)
     report["spot_mismatch_examples"] = [list(map(str, x)) for x in bad[:10]]
