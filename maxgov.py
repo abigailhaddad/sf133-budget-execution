@@ -69,4 +69,4 @@ def require_permission(url, fetch=None):
             "MAX.gov's robots.txt disallows automated access (User-agent: * / Disallow: /). "
             "Nothing was requested beyond robots.txt. To go ahead anyway, the owner sets "
             "SF133_OVERRIDE_ROBOTS=yes (the workflow reads the repo variable of that name). "
-            "See HANDOFF.md, 'Automatic refresh'.")
+            "See HANDOFF.md.")
