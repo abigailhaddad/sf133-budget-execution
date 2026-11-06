@@ -6,10 +6,27 @@ the workbooks' `Raw Data` sheets into one table, checks it against the source, a
 
 - Dataset: https://huggingface.co/datasets/abigailhaddad/sf133-budget-execution
 - Browse it: https://sf133-budget-execution.abigailhaddad.com
-- Dataset card: `dataset_card/README.md`
+- Dataset card: written from `dataset_card/README.template.md` and the tables by `make_card.py`
 - Operator guide: [HANDOFF.md](HANDOFF.md)
 
-Nothing here refreshes on its own. A keeper downloads the new workbooks and runs the scripts below.
+A weekly GitHub Action (`refresh.yml`) can check OMB's pages and refresh the data without anyone running a
+script. **It is switched off until the owner sets a repository variable**, because MAX.gov's robots.txt
+disallows automated access. See [HANDOFF.md](HANDOFF.md), "Automatic refresh". The manual route below always works.
+
+## Refresh automatically
+
+```bash
+python3 fetch_published.py --out pub            # the published tables, from Hugging Face
+python3 check_updates.py --pub pub --out changes.json     # one page request per fiscal year
+python3 download_changed.py --changes changes.json --raw raw_changed    # only what changed, one at a time
+python3 rebuild_changed.py --pub pub --raw raw_changed --changes changes.json --out build
+python3 verify_changed.py --lines build/sf133_lines.parquet --raw raw_changed --changes changes.json
+python3 publish_to_hf.py --upload               # one commit; builds the card, includes the saved state
+```
+
+`check_updates.py` and `download_changed.py` refuse to run while robots.txt disallows automated access,
+unless `SF133_OVERRIDE_ROBOTS=yes` is set. Only workbooks named like OMB's `FY<year>_SF133_MONTHLY_<agency>.xlsx`
+are refreshed this way. The tests run with `python3 -m pytest -q tests` and need no network.
 
 ## Rebuild
 

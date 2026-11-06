@@ -1,7 +1,7 @@
 ---
 license: other
 license_name: us-government-works-public-domain
-pretty_name: SF-133 budget execution, every federal account, FY2018 to FY2026
+pretty_name: SF-133 budget execution, every federal account, FY{{fy_first}} to FY{{fy_last}}
 language:
 - en
 tags:
@@ -21,37 +21,27 @@ configs:
   data_files: data/sf133_workbooks.parquet
 ---
 
-# SF-133 budget execution, FY2018 to FY2026
+# SF-133 budget execution, FY{{fy_first}} to FY{{fy_last}}
 
 The SF-133, Report on Budget Execution and Budgetary Resources, for every federal account,
 month by month. OMB publishes it as 29 Excel workbooks per fiscal year on MAX.gov. This dataset
-reads the workbooks' `Raw Data` sheets into one table per fiscal year, FY2018 through FY2026.
+reads the workbooks' `Raw Data` sheets into one table per fiscal year, FY{{fy_first}} through FY{{fy_last}}.
 
 Source: [OMB MAX.gov, SF 133 Reports on Budget Execution and Budgetary Resources](https://portal.max.gov/portal/document/SF133/Budget/)
 Unofficial copy. U.S. government works are in the public domain.
 
 ## As of
 
-Each fiscal year is the last version of its workbooks that I had. `source_updated` in the
+Each fiscal year is the last version of its workbooks that the build had read. `source_updated` in the
 lines table gives the date OMB stamped on the data.
 
-| Fiscal year | OMB data updated | Lines rows |
-|---|---|---|
-| 2018 | 2018-11-14 | 271,500 |
-| 2019 | 2019-10-18 | 274,335 |
-| 2020 | 2020-10-18 | 340,121 |
-| 2021 | 2021-10-19 | 342,770 |
-| 2022 | 2022-11-07 | 353,714 |
-| 2023 | 2023-11-14 | 359,438 |
-| 2024 | 2024-11-08 to 2024-11-12 | 368,419 |
-| 2025 | 2025-12-03 | 374,711 |
-| 2026 | 2026-10-21 to 2026-10-22 | 375,946 |
+{{asof_table}}
 
-Every year runs through September. FY2026 was downloaded on 2026-11-05.
+{{through_sentence}}{{refresh_note}}
 
 ## Tables
 
-`data/sf133_lines.parquet`, 3,060,954 rows. One row for each row of a workbook's Raw Data sheet:
+`data/sf133_lines.parquet`, {{lines_rows}} rows. One row for each row of a workbook's Raw Data sheet:
 an account's TAFS (Treasury Appropriation Fund Symbol) by SF-133 line number. Add up the rows
 that share a TAFS and a line number to get the value on the report (see Things to know).
 
@@ -72,7 +62,7 @@ that share a TAFS and a line number to get the value on the report (see Things t
 | `source_units` | Units in the source workbook (`dollars` for every workbook here) |
 | `source_file`, `source_row`, `source_updated` | The workbook, the Excel row in its Raw Data sheet, and OMB's update date |
 
-`data/sf133_accounts.parquet`, 77,771 rows. One row per fiscal year, TAFS, allocation and
+`data/sf133_accounts.parquet`, {{accounts_rows}} rows. One row per fiscal year, TAFS, allocation and
 financing type, with the headline lines at September (the last month of every year here):
 `unobligated_balance_brought_forward` (line 1000), `budget_authority_total` (1900),
 `total_budgetary_resources` (2500), `new_obligations_and_upward_adjustments` (2190),
@@ -80,7 +70,7 @@ financing type, with the headline lines at September (the last month of every ye
 `outlays_net` (4190). `is_gift_account` is true when the TAFS title contains gift, donation or
 bequest (see Gift accounts).
 
-`data/sf133_workbooks.parquet`, 261 rows. One row per source workbook: rows, units and the months
+`data/sf133_workbooks.parquet`, {{workbooks_rows}} rows. One row per source workbook: rows, units and the months
 that have data.
 
 ## Things to know
@@ -107,25 +97,12 @@ FY2022 (141 of them) exist twice in the files I had, as identical downloads; one
 FY2016 and FY2017 are not included. The names and email addresses of the people who filed each
 Category B row are in the source and are not in this dataset.
 
-**`unobligated_balance_end_of_period` is null where OMB reports no line 2490.** Some accounts have no line 2490
-row in the September report, so the column is null for them, not zero. Their other lines are still here, and some carry
-real money: in FY2025, 147 of the 525 accounts with a null balance report a nonzero total budgetary resources. The
-biggest is 97-0040 Payment to Military Retirement Fund ($154.4B), whose raw workbook has no line 2490 row.
+**`unobligated_balance_end_of_period` is null where OMB reports no line 2490.** {{null2490_paragraph}}
 
 **Summing `total_budgetary_resources` over every row includes financing accounts.** Filter on `financing` to separate
-them. Totals for September of each fiscal year:
+them. Totals at each fiscal year's latest reported month (September for a complete year):
 
-| Fiscal year | Accounts | No line 2490 (unobligated balance is null) | Of those, nonzero total budgetary resources | Total budgetary resources, all ($B) | Non-financing ($B) | Financing ($B) |
-|---|---|---|---|---|---|---|
-| 2018 | 7,953 | 449 | 115 | 7,594.1 | 7,210.6 | 383.5 |
-| 2019 | 7,977 | 430 | 120 | 7,980.6 | 7,619.1 | 361.5 |
-| 2020 | 8,257 | 425 | 111 | 12,412.8 | 11,099.7 | 1,313.1 |
-| 2021 | 8,454 | 439 | 115 | 13,118.9 | 11,832.0 | 1,286.9 |
-| 2022 | 8,678 | 475 | 117 | 11,837.3 | 11,043.2 | 794.0 |
-| 2023 | 8,866 | 515 | 138 | 12,190.4 | 11,396.2 | 794.2 |
-| 2024 | 9,048 | 519 | 140 | 12,341.5 | 11,849.7 | 491.8 |
-| 2025 | 9,219 | 525 | 147 | 13,536.0 | 12,814.3 | 721.7 |
-| 2026 | 9,319 | 514 | 121 | 14,062.5 | 13,539.2 | 523.3 |
+{{totals_table}}
 
 **The apportionment site covers fewer accounts.** [The site](https://apportionment-analysis.pages.dev) keeps only
 accounts that report both a line 2490 and a line 2500, so its yearly totals leave out the accounts above. For FY2025 it
@@ -135,12 +112,14 @@ shows $13,271.2B across 8,693 accounts, against $13,536.0B across 9,219 here. Th
 ## Gift accounts
 
 `is_gift_account` is a text match on the TAFS title: gift, gifts, donation, donations, bequest or
-bequests. It matches 65 accounts. It is not a judgment about what an account is. It includes the
+bequests. It matches {{gift_count}} accounts. It is not a judgment about what an account is. It includes the
 Library of Congress gift shop account (03-4346) and an account that pays interest on a bequest
 (03-8022). It will miss a gift account whose title uses other words. An account's balance says
 nothing about who gave the money.
 
 ## How it was checked
+
+When the first version was built:
 
 - Every row of every one of the 261 workbooks is in the table (3,060,954 of 3,060,954 rows).
 - A random sample of 104 rows, plus edge cases (negative values, no-year and multi-year accounts,
@@ -151,6 +130,11 @@ nothing about who gave the money.
   (116 workbooks), every pivot cell equals the sum of the Raw Data rows: 415,798 cells, 0
   differences. The FY2018 pivots leave out some months that the Raw Data sheet has. The Raw Data
   sheet is the complete one.
+
+Every automatic refresh re-checks what it replaces: each replaced workbook's rows against its Raw Data
+sheet, its totals against its own "Agency Total" pivot sheet, a random sample of rows and edge cases against
+the source cells, and that no line key appears in two workbooks of the same year. Years the refresh did not
+touch must come through identical, and a refresh that would shrink a year by more than 2% is not published.
 
 Not checked: the figures against OMB's published PDFs, and the sign of each amount beyond the
 sample. What the amounts mean is up to OMB's definitions of each line.
