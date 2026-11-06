@@ -107,6 +107,31 @@ FY2022 (141 of them) exist twice in the files I had, as identical downloads; one
 FY2016 and FY2017 are not included. The names and email addresses of the people who filed each
 Category B row are in the source and are not in this dataset.
 
+**`unobligated_balance_end_of_period` is null where OMB reports no line 2490.** Some accounts have no line 2490
+row in the September report, so the column is null for them, not zero. Their other lines are still here, and some carry
+real money: in FY2025, 147 of the 525 accounts with a null balance report a nonzero total budgetary resources. The
+biggest is 97-0040 Payment to Military Retirement Fund ($154.4B), whose raw workbook has no line 2490 row.
+
+**Summing `total_budgetary_resources` over every row includes financing accounts.** Filter on `financing` to separate
+them. Totals for September of each fiscal year:
+
+| Fiscal year | Accounts | No line 2490 (unobligated balance is null) | Of those, nonzero total budgetary resources | Total budgetary resources, all ($B) | Non-financing ($B) | Financing ($B) |
+|---|---|---|---|---|---|---|
+| 2018 | 7,953 | 449 | 115 | 7,594.1 | 7,210.6 | 383.5 |
+| 2019 | 7,977 | 430 | 120 | 7,980.6 | 7,619.1 | 361.5 |
+| 2020 | 8,257 | 425 | 111 | 12,412.8 | 11,099.7 | 1,313.1 |
+| 2021 | 8,454 | 439 | 115 | 13,118.9 | 11,832.0 | 1,286.9 |
+| 2022 | 8,678 | 475 | 117 | 11,837.3 | 11,043.2 | 794.0 |
+| 2023 | 8,866 | 515 | 138 | 12,190.4 | 11,396.2 | 794.2 |
+| 2024 | 9,048 | 519 | 140 | 12,341.5 | 11,849.7 | 491.8 |
+| 2025 | 9,219 | 525 | 147 | 13,536.0 | 12,814.3 | 721.7 |
+| 2026 | 9,319 | 514 | 121 | 14,062.5 | 13,539.2 | 523.3 |
+
+**The apportionment site covers fewer accounts.** [The site](https://abigailhaddad.github.io/apportionment/) keeps only
+accounts that report both a line 2490 and a line 2500, so its yearly totals leave out the accounts above. For FY2025 it
+shows $13,271.2B across 8,693 accounts, against $13,536.0B across 9,219 here. The gap is the
+526 accounts it leaves out, worth $264.9B. Both are right for what they cover.
+
 ## Gift accounts
 
 `is_gift_account` is a text match on the TAFS title: gift, gifts, donation, donations, bequest or
