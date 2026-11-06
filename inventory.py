@@ -1,8 +1,9 @@
+import os
 import warnings, zipfile, csv, sys
 from pathlib import Path
 import openpyxl
 warnings.filterwarnings("ignore")
-RAW = Path.home()/"Documents/repos/apportion/raw_data"
+RAW = Path(os.environ.get("SF133_RAW", Path.home() / "Documents/repos/apportion/raw_data"))
 out = csv.writer(open("inventory_workbooks.csv","w",newline=""))
 out.writerow(["year","file","ext","mb","is_zip","sheets","has_raw_data"])
 for ydir in sorted(p for p in RAW.iterdir() if p.is_dir() and p.name.isdigit()):

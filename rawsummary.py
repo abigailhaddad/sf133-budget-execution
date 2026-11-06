@@ -1,11 +1,12 @@
 """One summary row per workbook that has a Raw Data sheet."""
+import os
 import warnings, sys, json
 from pathlib import Path
 from concurrent.futures import ProcessPoolExecutor
 import multiprocessing as mp
 import pandas as pd, openpyxl
 warnings.filterwarnings("ignore")
-RAW = Path.home()/"Documents/repos/apportion/raw_data"
+RAW = Path(os.environ.get("SF133_RAW", Path.home() / "Documents/repos/apportion/raw_data"))
 
 def units(f):
     try:

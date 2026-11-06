@@ -1,10 +1,11 @@
+import os
 import warnings, sys
 from pathlib import Path
 import multiprocessing as mp
 from concurrent.futures import ProcessPoolExecutor
 import pandas as pd, numpy as np
 warnings.filterwarnings("ignore")
-RAW = Path.home()/"Documents/repos/apportion/raw_data"
+RAW = Path(os.environ.get("SF133_RAW", Path.home() / "Documents/repos/apportion/raw_data"))
 
 def digest(args):
     year, file = args

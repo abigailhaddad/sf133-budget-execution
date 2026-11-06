@@ -127,7 +127,7 @@ them. Totals for September of each fiscal year:
 | 2025 | 9,219 | 525 | 147 | 13,536.0 | 12,814.3 | 721.7 |
 | 2026 | 9,319 | 514 | 121 | 14,062.5 | 13,539.2 | 523.3 |
 
-**The apportionment site covers fewer accounts.** [The site](https://abigailhaddad.github.io/apportionment/) keeps only
+**The apportionment site covers fewer accounts.** [The site](https://apportionment-analysis.pages.dev) keeps only
 accounts that report both a line 2490 and a line 2500, so its yearly totals leave out the accounts above. For FY2025 it
 shows $13,271.2B across 8,693 accounts, against $13,536.0B across 9,219 here. The gap is the
 526 accounts it leaves out, worth $264.9B. Both are right for what they cover.
@@ -158,4 +158,7 @@ sample. What the amounts mean is up to OMB's definitions of each line.
 ## Code
 
 The build, the checks and the notes on the labeling errors found in an earlier version of this data
-are in the repository: https://github.com/abigailhaddad/sf133-budget-execution.
+(in HANDOFF.md) are in the repository: https://github.com/abigailhaddad/sf133-budget-execution.
+
+You can browse and filter the accounts table, with a page for each account, at
+https://sf133-budget-execution.abigailhaddad.com.

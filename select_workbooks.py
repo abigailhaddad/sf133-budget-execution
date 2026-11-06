@@ -5,11 +5,12 @@ Drops (a) DEFC workbooks, a separate cut by Disaster Emergency Funding Code that
 already in the agency workbooks, and (b) exact duplicate downloads (same agency, same rows; the
 content hashes in duplicate_workbooks_hashes.csv show the Raw Data sheets are identical).
 """
+import os
 import sys
 from pathlib import Path
 import pandas as pd
 
-RAW = Path.home() / "Documents/repos/apportion/raw_data"
+RAW = Path(os.environ.get("SF133_RAW", Path.home() / "Documents/repos/apportion/raw_data"))
 RAW26 = Path("scratch/raw2026")
 
 def is_defc(path):

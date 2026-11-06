@@ -75,8 +75,9 @@ def main():
     if not exists:
         api.create_repo(REPO_ID, repo_type="dataset", exist_ok=True)
     ops = [CommitOperationAdd(path_in_repo=dest, path_or_fileobj=str(src)) for dest, src in FILES.items()]
+    fy = [y for y, _ in info["years"]]
     api.create_commit(REPO_ID, repo_type="dataset", operations=ops,
-                      commit_message="SF-133 budget execution, FY2018 to FY2026")
+                      commit_message=f"SF-133 budget execution, FY{min(fy)} to FY{max(fy)}")
     print("committed")
 
 

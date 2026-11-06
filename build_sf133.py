@@ -4,7 +4,7 @@
 One row per Raw Data row: TAFS x line number (x Category B activity for lines 2002, 2102 and
 similar). Amounts are fiscal-year-to-date, in dollars. Agency, bureau and account labels come
 from the row itself. The apportion pipeline instead gave a whole workbook the first agency name
-it found; see FINDINGS.md.
+it found; see HANDOFF.md.
 
     python3 build_sf133.py --raw ~/Documents/repos/apportion/raw_data --raw2026 scratch/raw2026 --out build
 
