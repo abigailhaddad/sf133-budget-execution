@@ -1,0 +1,591 @@
+year,file,ext,mb,is_zip,sheets,has_raw_data
+2016,1001325517.xls,.xls,1.5,False,,False
+2016,1001325520.xls,.xls,15.5,False,,False
+2016,1001325521.xls,.xls,14.8,False,,False
+2016,1001325522.xls,.xls,12.4,False,,False
+2016,1001325523.xls,.xls,8.1,False,,False
+2016,1001325525.xls,.xls,19.5,False,,False
+2016,1001325526.xls,.xls,3.7,False,,False
+2016,1001325528.xls,.xls,11.6,False,,False
+2016,1001325529.xls,.xls,8.3,False,,False
+2016,1050739214.xls,.xls,1.7,False,,False
+2016,1101299812.xls,.xls,2.0,False,,False
+2016,1126435390.xls,.xls,2.1,False,,False
+2016,1141309715.xls,.xls,3.7,False,,False
+2016,1156418178.xls,.xls,3.4,False,,False
+2016,984056275.xlsx,.xlsx,1.9,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2016,984056277.xlsx,.xlsx,2.4,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2016,984056279.xlsx,.xlsx,3.9,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2016,984056280.xlsx,.xlsx,2.6,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2016,984056281.xlsx,.xlsx,3.6,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2016,984056282.xlsx,.xlsx,2.1,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2016,984056283.xlsx,.xlsx,1.5,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2016,984056285.xlsx,.xlsx,1.4,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2016,984056286.xlsx,.xlsx,1.4,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2016,984056287.xlsx,.xlsx,3.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2016,984056288.xlsx,.xlsx,1.3,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2016,984056289.xlsx,.xlsx,2.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2016,984056291.xlsx,.xlsx,1.5,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2016,984056292.xlsx,.xlsx,1.3,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2016,984056293.xlsx,.xlsx,1.3,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2016,984056296.xlsx,.xlsx,1.4,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2016,984056298.xlsx,.xlsx,4.8,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2016,984056301.xlsx,.xlsx,2.1,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2016,984056302.xlsx,.xlsx,1.4,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2016,984056303.xlsx,.xlsx,1.5,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2016,984056304.xlsx,.xlsx,4.5,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2016,984056305.xlsx,.xlsx,2.3,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2016,984056306.xlsx,.xlsx,4.8,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2016,984056307.xlsx,.xlsx,2.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2016,984056308.xlsx,.xlsx,2.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2016,984056309.xlsx,.xlsx,4.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2016,984056310.xlsx,.xlsx,3.8,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2016,984056311.xlsx,.xlsx,2.5,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2016,984056312.xlsx,.xlsx,2.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2016,984645699.xlsx,.xlsx,0.2,True,_65c_All_Ab_Sign_Rpt,False
+2017,1187283387.xls,.xls,1.5,False,,False
+2017,1187283983.xlsx,.xlsx,2.1,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2017,1187283985.xlsx,.xlsx,1.7,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2017,1187283987.xlsx,.xlsx,1.5,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2017,1187283988.xlsx,.xlsx,1.5,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2017,1187283989.xlsx,.xlsx,1.5,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2017,1187283990.xlsx,.xlsx,2.6,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2017,1187283992.xlsx,.xlsx,2.5,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2017,1187283993.xlsx,.xlsx,1.6,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2017,1187283997.xlsx,.xlsx,1.6,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2017,1187284001.xlsx,.xlsx,5.5,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2017,1187284004.xlsx,.xlsx,2.7,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2017,1187284005.xlsx,.xlsx,5.7,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2017,1187284006.xlsx,.xlsx,2.3,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2017,1187284008.xlsx,.xlsx,2.6,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2017,1187284010.xlsx,.xlsx,5.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2017,1187284011.xlsx,.xlsx,4.3,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2017,1187284013.xlsx,.xlsx,3.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2017,1187284015.xlsx,.xlsx,2.6,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2017,1187284017.xlsx,.xlsx,2.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2017,1187284020.xlsx,.xlsx,2.8,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2017,1187284021.xlsx,.xlsx,4.5,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2017,1187284024.xlsx,.xlsx,3.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2017,1187284026.xlsx,.xlsx,4.1,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2017,1187284027.xlsx,.xlsx,2.4,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2017,1187284030.xlsx,.xlsx,1.7,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2017,1187284031.xlsx,.xlsx,1.6,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2017,1187284032.xlsx,.xlsx,1.6,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2017,1187284035.xlsx,.xlsx,3.7,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2017,1187284036.xlsx,.xlsx,1.5,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2017,1203931817.xls,.xls,1.8,False,,False
+2017,1203932148.xls,.xls,0.4,False,,False
+2017,1203932149.xls,.xls,15.3,False,,False
+2017,1203932150.xls,.xls,15.0,False,,False
+2017,1203932154.xls,.xls,12.3,False,,False
+2017,1203932156.xls,.xls,7.9,False,,False
+2017,1203932157.xls,.xls,19.5,False,,False
+2017,1203932159.xls,.xls,3.5,False,,False
+2017,1203932160.xls,.xls,11.4,False,,False
+2017,1254524028.xlsx,.xlsx,0.3,True,_65c_All_Ab_Sign_Rpt,False
+2017,1296696034.xls,.xls,2.1,False,,False
+2017,1313179226.xls,.xls,2.2,False,,False
+2017,1328481524.xls,.xls,2.3,False,,False
+2017,1345061001.xls,.xls,2.4,False,,False
+2018,1382319031.xls,.xls,1.2,False,,False
+2018,1405158704.xls,.xls,1.4,False,,False
+2018,1405159122.xls,.xls,12.4,False,,False
+2018,1405159125.xls,.xls,15.2,False,,False
+2018,1405159128.xls,.xls,15.4,False,,False
+2018,1405159130.xls,.xls,8.3,False,,False
+2018,1405159135.xls,.xls,11.7,False,,False
+2018,1405159137.xls,.xls,3.5,False,,False
+2018,1405159142.xls,.xls,19.5,False,,False
+2018,1405159144.xls,.xls,8.0,False,,False
+2018,1405160423.xlsx,.xlsx,5.4,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1405160425.xlsx,.xlsx,4.1,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1405160427.xlsx,.xlsx,5.1,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1405160432.xlsx,.xlsx,3.9,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1405160436.xlsx,.xlsx,2.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1405160439.xlsx,.xlsx,2.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1405160443.xlsx,.xlsx,2.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1405160445.xlsx,.xlsx,5.5,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1405160446.xlsx,.xlsx,1.9,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1405160449.xlsx,.xlsx,3.3,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1405160458.xlsx,.xlsx,2.3,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1405160461.xlsx,.xlsx,1.8,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1405160463.xlsx,.xlsx,1.7,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1405160467.xlsx,.xlsx,1.7,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1405160468.xlsx,.xlsx,2.9,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1405160471.xlsx,.xlsx,1.8,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1405160475.xlsx,.xlsx,1.9,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1405160477.xlsx,.xlsx,8.6,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1405160478.xlsx,.xlsx,3.5,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1405160479.xlsx,.xlsx,10.9,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1405160484.xlsx,.xlsx,3.1,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1405160487.xlsx,.xlsx,2.9,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1405160493.xlsx,.xlsx,10.3,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1405160495.xlsx,.xlsx,6.9,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1405160499.xlsx,.xlsx,4.4,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1405160501.xlsx,.xlsx,3.6,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1405160505.xlsx,.xlsx,3.4,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1405160508.xlsx,.xlsx,3.7,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1405879656.xlsx,.xlsx,8.8,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1471777554.xls,.xls,1.7,False,,False
+2018,1516309844.xlsx,.xlsx,5.7,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1516309847.xlsx,.xlsx,4.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1516309849.xlsx,.xlsx,5.4,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1516309853.xlsx,.xlsx,4.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1516309854.xlsx,.xlsx,2.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1516309856.xlsx,.xlsx,2.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1516309857.xlsx,.xlsx,2.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1516309859.xlsx,.xlsx,5.7,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1516309860.xlsx,.xlsx,1.9,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1516309861.xlsx,.xlsx,3.3,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1516309862.xlsx,.xlsx,2.4,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1516309864.xlsx,.xlsx,1.8,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1516309865.xlsx,.xlsx,1.7,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1516309866.xlsx,.xlsx,1.7,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1516309867.xlsx,.xlsx,9.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1516309868.xlsx,.xlsx,2.9,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1516309870.xlsx,.xlsx,1.8,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1516309873.xlsx,.xlsx,1.9,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1516309874.xlsx,.xlsx,9.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1516309875.xlsx,.xlsx,3.6,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1516309877.xlsx,.xlsx,11.7,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1516309880.xlsx,.xlsx,3.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1516309882.xlsx,.xlsx,3.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1516309884.xlsx,.xlsx,11.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1516309886.xlsx,.xlsx,7.3,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1516309887.xlsx,.xlsx,4.5,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1516309888.xlsx,.xlsx,3.8,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1516309890.xlsx,.xlsx,3.5,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1516309891.xlsx,.xlsx,3.8,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2018,1536166917.xls,.xls,1.7,False,,False
+2018,1561788857.xls,.xls,1.5,False,,False
+2018,1585971907.xls,.xls,1.4,False,,False
+2018,1611334428.xls,.xls,1.4,False,,False
+2019,Ab_Sign_Rpt_2019_06.xls,.xls,1.1,False,,False
+2019,Ab_Sign_Rpt_2019_09.xls,.xls,1.2,False,,False
+2019,Ab_Sign_Rpt_2019_10.xls,.xls,1.3,False,,False
+2019,Ab_Sign_Rpt_2019_11.xls,.xls,1.4,False,,False
+2019,Ab_Sign_Rpt_2019_12.xls,.xls,1.4,False,,False
+2019,Ab_Sign_Rpt_FY2019_Dec.xls,.xls,1.0,False,,False
+2019,Ab_Sign_Rpt_fy2019_nov.xls,.xls,0.7,False,,False
+2019,FY2019_SF133_Corps_of_Engineers_Civil_Works.xlsx,.xlsx,1.9,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_Department_of_Agriculture.xlsx,.xlsx,8.8,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_Department_of_Commerce.xlsx,.xlsx,3.6,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_Department_of_Defense_Military.xlsx,.xlsx,10.7,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_Department_of_Education.xlsx,.xlsx,3.5,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_Department_of_Energy.xlsx,.xlsx,3.1,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_Department_of_Health_and_Human_Services.xlsx,.xlsx,10.5,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_Department_of_Homeland_Security.xlsx,.xlsx,6.9,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_Department_of_Housing_and_Urban_Development.xlsx,.xlsx,4.6,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_Department_of_Justice.xlsx,.xlsx,3.7,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_Department_of_Labor.xlsx,.xlsx,3.5,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_Department_of_State.xlsx,.xlsx,3.8,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_Department_of_Transportation.xlsx,.xlsx,5.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_Department_of_Veterans_Affairs.xlsx,.xlsx,3.9,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_Department_of_the_Interior.xlsx,.xlsx,5.4,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_Department_of_the_Treasury.xlsx,.xlsx,4.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_Environmental_Protection_Agency.xlsx,.xlsx,2.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_Executive_Office_of_the_President.xlsx,.xlsx,2.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_General_Services_Administration.xlsx,.xlsx,2.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_International_Assistance_Programs.xlsx,.xlsx,5.7,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_Judicial_Branch.xlsx,.xlsx,1.9,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_Legislative_Branch.xlsx,.xlsx,3.4,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_MONTHLY_Corps_of_Engineers_Civil_Works.xlsx,.xlsx,1.9,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_MONTHLY_Department_of_Agriculture.xlsx,.xlsx,9.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_MONTHLY_Department_of_Commerce.xlsx,.xlsx,3.6,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_MONTHLY_Department_of_Defense_Military.xlsx,.xlsx,11.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_MONTHLY_Department_of_Education.xlsx,.xlsx,3.5,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_MONTHLY_Department_of_Energy.xlsx,.xlsx,3.1,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_MONTHLY_Department_of_Health_and_Human_Services.xlsx,.xlsx,11.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_MONTHLY_Department_of_Homeland_Security.xlsx,.xlsx,7.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_MONTHLY_Department_of_Housing_and_Urban_Development.xlsx,.xlsx,4.7,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_MONTHLY_Department_of_Justice.xlsx,.xlsx,3.8,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_MONTHLY_Department_of_Labor.xlsx,.xlsx,3.5,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_MONTHLY_Department_of_State.xlsx,.xlsx,3.8,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_MONTHLY_Department_of_Transportation.xlsx,.xlsx,5.4,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_MONTHLY_Department_of_Veterans_Affairs.xlsx,.xlsx,4.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_MONTHLY_Department_of_the_Interior.xlsx,.xlsx,5.6,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_MONTHLY_Department_of_the_Treasury.xlsx,.xlsx,4.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_MONTHLY_Environmental_Protection_Agency.xlsx,.xlsx,2.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_MONTHLY_Executive_Office_of_the_President.xlsx,.xlsx,2.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_MONTHLY_General_Services_Administration.xlsx,.xlsx,2.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_MONTHLY_International_Assistance_Programs.xlsx,.xlsx,5.8,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_MONTHLY_Judicial_Branch.xlsx,.xlsx,1.8,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_MONTHLY_Legislative_Branch.xlsx,.xlsx,3.4,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_MONTHLY_National_Aeronautics_and_Space_Administration.xlsx,.xlsx,2.4,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_MONTHLY_National_Science_Foundation.xlsx,.xlsx,1.8,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_MONTHLY_Office_of_Personnel_Management.xlsx,.xlsx,1.7,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_MONTHLY_Other_Defense_Civil_Programs.xlsx,.xlsx,1.7,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_MONTHLY_Other_Independent_Agencies.xlsx,.xlsx,8.9,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_MONTHLY_Small_Business_Administration.xlsx,.xlsx,3.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_MONTHLY_Social_Security_Administration.xlsx,.xlsx,1.8,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_National_Aeronautics_and_Space_Administration.xlsx,.xlsx,2.4,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_National_Science_Foundation.xlsx,.xlsx,1.8,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_Office_of_Personnel_Management.xlsx,.xlsx,1.7,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_Other_Defense_Civil_Programs.xlsx,.xlsx,1.8,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_Other_Independent_Agencies.xlsx,.xlsx,8.6,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_Small_Business_Administration.xlsx,.xlsx,3.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,FY2019_SF133_Social_Security_Administration.xlsx,.xlsx,1.8,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2019,Rpt_SS_All_Othr_Exec_2019.xls,.xls,19.5,False,,False
+2019,Rpt_SS_Cab_Dept_Agriculture_2019.xls,.xls,8.1,False,,False
+2019,Rpt_SS_Cab_Dept_Commerce_Defense--Military_2019.xls,.xls,12.3,False,,False
+2019,Rpt_SS_Cab_Dept_Education_Energy_Health_Human_Services_2019.xls,.xls,15.6,False,,False
+2019,Rpt_SS_Cab_Dept_Homeland_HUD_Interior_2019.xls,.xls,15.4,False,,False
+2019,Rpt_SS_Cab_Dept_Justice_Labor_State_2019.xls,.xls,8.3,False,,False
+2019,Rpt_SS_Cab_Dept_Treasury_Transportation_VA_2019.xls,.xls,11.5,False,,False
+2019,Rpt_SS_Leg_Judic_2019.xls,.xls,3.6,False,,False
+2020,Ab_Sign_Rpt_2020_02.xls,.xls,1.0,False,,False
+2020,Ab_Sign_Rpt_2020_03.xlsx,.xlsx,0.2,True,_65c_All_Ab_Sign_Rpt,False
+2020,Ab_Sign_Rpt_2020_06.xls,.xls,1.3,False,,False
+2020,Ab_Sign_Rpt_2020_09.xls,.xls,1.4,False,,False
+2020,Ab_Sign_Rpt_2020_10.xls,.xls,1.5,False,,False
+2020,Ab_Sign_Rpt_2020_11.xls,.xls,1.6,False,,False
+2020,Ab_Sign_Rpt_2020_12.xls,.xls,1.5,False,,False
+2020,FY2020_SF133_Corps_of_Engineers_Civil_Works.xlsx,.xlsx,2.3,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_Department_of_Agriculture.xlsx,.xlsx,10.6,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_Department_of_Commerce.xlsx,.xlsx,4.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_Department_of_Defense_Military.xlsx,.xlsx,13.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_Department_of_Education.xlsx,.xlsx,3.9,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_Department_of_Energy.xlsx,.xlsx,3.7,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_Department_of_Health_and_Human_Services.xlsx,.xlsx,12.6,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_Department_of_Homeland_Security.xlsx,.xlsx,7.8,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_Department_of_Housing_and_Urban_Development.xlsx,.xlsx,5.8,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_Department_of_Justice.xlsx,.xlsx,4.5,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_Department_of_Labor.xlsx,.xlsx,4.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_Department_of_State.xlsx,.xlsx,4.5,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_Department_of_Transportation.xlsx,.xlsx,6.3,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_Department_of_Veterans_Affairs.xlsx,.xlsx,4.9,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_Department_of_the_Interior.xlsx,.xlsx,6.4,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_Department_of_the_Treasury.xlsx,.xlsx,5.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_Environmental_Protection_Agency.xlsx,.xlsx,2.5,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_Executive_Office_of_the_President.xlsx,.xlsx,2.7,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_General_Services_Administration.xlsx,.xlsx,2.4,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_International_Assistance_Programs.xlsx,.xlsx,7.1,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_Judicial_Branch.xlsx,.xlsx,2.3,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_Legislative_Branch.xlsx,.xlsx,4.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_MONTHLY_Corps_of_Engineers_Civil_Works.xlsx,.xlsx,2.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_MONTHLY_Department_of_Agriculture.xlsx,.xlsx,11.4,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_MONTHLY_Department_of_Commerce.xlsx,.xlsx,4.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_MONTHLY_Department_of_Defense_Military.xlsx,.xlsx,14.1,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_MONTHLY_Department_of_Education.xlsx,.xlsx,3.7,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_MONTHLY_Department_of_Energy.xlsx,.xlsx,3.5,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_MONTHLY_Department_of_Health_and_Human_Services.xlsx,.xlsx,13.4,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_MONTHLY_Department_of_Homeland_Security.xlsx,.xlsx,8.3,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_MONTHLY_Department_of_Housing_and_Urban_Development.xlsx,.xlsx,5.6,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_MONTHLY_Department_of_Justice.xlsx,.xlsx,4.3,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_MONTHLY_Department_of_Labor.xlsx,.xlsx,4.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_MONTHLY_Department_of_State.xlsx,.xlsx,4.4,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_MONTHLY_Department_of_Transportation.xlsx,.xlsx,6.3,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_MONTHLY_Department_of_Veterans_Affairs.xlsx,.xlsx,4.7,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_MONTHLY_Department_of_the_Interior.xlsx,.xlsx,6.7,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_MONTHLY_Department_of_the_Treasury.xlsx,.xlsx,4.9,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_MONTHLY_Environmental_Protection_Agency.xlsx,.xlsx,2.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_MONTHLY_Executive_Office_of_the_President.xlsx,.xlsx,2.4,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_MONTHLY_General_Services_Administration.xlsx,.xlsx,2.1,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_MONTHLY_International_Assistance_Programs.xlsx,.xlsx,7.4,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_MONTHLY_Judicial_Branch.xlsx,.xlsx,2.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_MONTHLY_Legislative_Branch.xlsx,.xlsx,4.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_MONTHLY_National_Aeronautics_and_Space_Administration.xlsx,.xlsx,2.6,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_MONTHLY_Office_of_Personnel_Management.xlsx,.xlsx,1.8,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_MONTHLY_Other_Defense_Civil_Programs.xlsx,.xlsx,1.9,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_MONTHLY_Small_Business_Administration.xlsx,.xlsx,3.4,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_MONTHLY_Social_Security_Administration.xlsx,.xlsx,1.9,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_National_Aeronautics_and_Space_Administration.xlsx,.xlsx,2.9,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_National_Science_Foundation.xlsx,.xlsx,2.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_Office_of_Personnel_Management.xlsx,.xlsx,2.1,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_Other_Defense_Civil_Programs.xlsx,.xlsx,2.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_Other_Independent_Agencies.xlsx,.xlsx,9.9,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_Small_Business_Administration.xlsx,.xlsx,3.7,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,FY2020_SF133_Social_Security_Administration.xlsx,.xlsx,2.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2020,Rpt_SS_Cab_Dept_Agriculture_2020.xls,.xls,10.0,False,,False
+2020,Rpt_SS_Cab_Dept_Commerce_Defense--Military_2020.xls,.xls,14.9,False,,False
+2020,Rpt_SS_Cab_Dept_Education_Energy_Health_Human_Services_2020.xls,.xls,18.6,False,,False
+2020,Rpt_SS_Cab_Dept_Homeland_HUD_Interior_2020.xls,.xls,18.8,False,,False
+2020,Rpt_SS_Cab_Dept_Justice_Labor_State_2020.xls,.xls,9.9,False,,False
+2020,Rpt_SS_Cab_Dept_Treasury_Transportation_VA_2020.xls,.xls,14.1,False,,False
+2020,Rpt_SS_Leg_Judic_2020.xls,.xls,4.5,False,,False
+2020,SF133 DEFC_FY2020_Sep.xlsx,.xlsx,7.4,True,TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,Ab_Sign_Rpt_2020_02.xls,.xls,1.0,False,,False
+2021,Ab_Sign_Rpt_2021_03.xls,.xls,1.0,False,,False
+2021,Ab_Sign_Rpt_2021_06.xls,.xls,1.2,False,,False
+2021,Ab_Sign_Rpt_2021_09.xls,.xls,1.3,False,,False
+2021,Ab_Sign_Rpt_2021_10.xls,.xls,1.4,False,,False
+2021,Ab_Sign_Rpt_2021_11.xls,.xls,1.5,False,,False
+2021,Ab_Sign_Rpt_2021_12.xls,.xls,1.5,False,,False
+2021,FY2021_SF133_Corps_of_Engineers_Civil_Works.xlsx,.xlsx,2.3,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_Department_of_Agriculture.xlsx,.xlsx,11.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_Department_of_Commerce.xlsx,.xlsx,4.3,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_Department_of_Defense_Military.xlsx,.xlsx,13.8,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_Department_of_Education.xlsx,.xlsx,4.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_Department_of_Energy.xlsx,.xlsx,3.8,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_Department_of_Health_and_Human_Services.xlsx,.xlsx,13.4,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_Department_of_Homeland_Security.xlsx,.xlsx,8.1,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_Department_of_Housing_and_Urban_Development.xlsx,.xlsx,6.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_Department_of_Justice.xlsx,.xlsx,4.5,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_Department_of_Labor.xlsx,.xlsx,4.3,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_Department_of_State.xlsx,.xlsx,4.6,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_Department_of_Transportation.xlsx,.xlsx,6.3,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_Department_of_Veterans_Affairs.xlsx,.xlsx,4.6,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_Department_of_the_Interior.xlsx,.xlsx,6.6,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_Department_of_the_Treasury.xlsx,.xlsx,5.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_Environmental_Protection_Agency.xlsx,.xlsx,2.5,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_Executive_Office_of_the_President.xlsx,.xlsx,2.8,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_General_Services_Administration.xlsx,.xlsx,2.4,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_International_Assistance_Programs.xlsx,.xlsx,6.8,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_Judicial_Branch.xlsx,.xlsx,2.3,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_Legislative_Branch.xlsx,.xlsx,4.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_MONTHLY_Corps_of_Engineers_Civil_Works.xlsx,.xlsx,2.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_MONTHLY_Department_of_Agriculture.xlsx,.xlsx,12.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_MONTHLY_Department_of_Commerce.xlsx,.xlsx,4.1,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_MONTHLY_Department_of_Defense_Military.xlsx,.xlsx,14.8,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_MONTHLY_Department_of_Education.xlsx,.xlsx,3.8,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_MONTHLY_Department_of_Energy.xlsx,.xlsx,3.6,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_MONTHLY_Department_of_Health_and_Human_Services.xlsx,.xlsx,14.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_MONTHLY_Department_of_Homeland_Security.xlsx,.xlsx,8.6,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_MONTHLY_Department_of_Housing_and_Urban_Development.xlsx,.xlsx,6.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_MONTHLY_Department_of_Justice.xlsx,.xlsx,4.4,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_MONTHLY_Department_of_Labor.xlsx,.xlsx,4.1,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_MONTHLY_Department_of_State.xlsx,.xlsx,4.4,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_MONTHLY_Department_of_Transportation.xlsx,.xlsx,6.4,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_MONTHLY_Department_of_Veterans_Affairs.xlsx,.xlsx,4.4,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_MONTHLY_Department_of_the_Interior.xlsx,.xlsx,6.9,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_MONTHLY_Department_of_the_Treasury.xlsx,.xlsx,5.1,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_MONTHLY_Environmental_Protection_Agency.xlsx,.xlsx,2.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_MONTHLY_Executive_Office_of_the_President.xlsx,.xlsx,2.5,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_MONTHLY_General_Services_Administration.xlsx,.xlsx,2.1,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_MONTHLY_International_Assistance_Programs.xlsx,.xlsx,7.1,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_MONTHLY_Legislative_Branch.xlsx,.xlsx,4.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_MONTHLY_National_Aeronautics_and_Space_Administration.xlsx,.xlsx,2.6,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_MONTHLY_National_Science_Foundation.xlsx,.xlsx,1.9,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_MONTHLY_Office_of_Personnel_Management.xlsx,.xlsx,1.9,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_MONTHLY_Other_Defense_Civil_Programs.xlsx,.xlsx,1.8,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_MONTHLY_Other_Independent_Agencies.xlsx,.xlsx,10.9,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_MONTHLY_Small_Business_Administration.xlsx,.xlsx,3.5,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_MONTHLY_Social_Security_Administration.xlsx,.xlsx,1.9,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_National_Aeronautics_and_Space_Administration.xlsx,.xlsx,2.9,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_National_Science_Foundation.xlsx,.xlsx,2.3,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_Office_of_Personnel_Management.xlsx,.xlsx,2.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_Other_Defense_Civil_Programs.xlsx,.xlsx,2.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_Other_Independent_Agencies.xlsx,.xlsx,10.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_Small_Business_Administration.xlsx,.xlsx,3.8,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,FY2021_SF133_Social_Security_Administration.xlsx,.xlsx,2.3,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2021,Rpt_SS_All_Othr_Exec_2021.xls,.xls,19.5,False,,False
+2021,Rpt_SS_Cab_Dept_Agriculture_2021.xls,.xls,10.1,False,,False
+2021,Rpt_SS_Cab_Dept_Commerce_Defense--Military_2021.xls,.xls,14.9,False,,False
+2021,Rpt_SS_Cab_Dept_Education_Energy_Health_Human_Services_2021.xls,.xls,19.0,False,,False
+2021,Rpt_SS_Cab_Dept_Homeland_HUD_Interior_2021.xls,.xls,19.1,False,,False
+2021,Rpt_SS_Cab_Dept_Justice_Labor_State_2021.xls,.xls,9.8,False,,False
+2021,Rpt_SS_Cab_Dept_Treasury_Transportation_VA_2021.xls,.xls,13.4,False,,False
+2021,Rpt_SS_Leg_Judic_2021.xls,.xls,4.6,False,,False
+2021,SF133 DEFC_FY2021_Sep.xlsx,.xlsx,12.2,True,TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,Ab_Sign_Rpt_2022_02.xls,.xls,1.0,False,,False
+2022,Ab_Sign_Rpt_2022_03.xls,.xls,1.1,False,,False
+2022,Ab_Sign_Rpt_2022_06.xls,.xls,1.3,False,,False
+2022,Ab_Sign_Rpt_2022_09.xls,.xls,1.5,False,,False
+2022,Ab_Sign_Rpt_2022_10.xls,.xls,1.6,False,,False
+2022,Ab_Sign_Rpt_2022_11.xls,.xls,1.5,False,,False
+2022,FY2022_SF133_Corps_of_Engineers_Civil_Works.xlsx,.xlsx,2.3,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_Department_of_Agriculture.xlsx,.xlsx,11.5,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_Department_of_Commerce.xlsx,.xlsx,4.4,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_Department_of_Defense_Military.xlsx,.xlsx,14.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_Department_of_Education.xlsx,.xlsx,4.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_Department_of_Energy.xlsx,.xlsx,4.1,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_Department_of_Health_and_Human_Services.xlsx,.xlsx,13.6,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_Department_of_Homeland_Security.xlsx,.xlsx,8.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_Department_of_Housing_and_Urban_Development.xlsx,.xlsx,6.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_Department_of_Justice.xlsx,.xlsx,4.6,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_Department_of_Labor.xlsx,.xlsx,4.3,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_Department_of_State.xlsx,.xlsx,4.7,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_Department_of_Transportation.xlsx,.xlsx,6.6,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_Department_of_Veterans_Affairs.xlsx,.xlsx,5.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_Department_of_the_Interior.xlsx,.xlsx,6.9,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_Department_of_the_Treasury.xlsx,.xlsx,5.4,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_Environmental_Protection_Agency.xlsx,.xlsx,2.6,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_Executive_Office_of_the_President.xlsx,.xlsx,2.9,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_General_Services_Administration.xlsx,.xlsx,2.5,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_International_Assistance_Programs.xlsx,.xlsx,7.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_Judicial_Branch.xlsx,.xlsx,2.4,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_MONTHLY_Corps_of_Engineers_Civil_Works.xlsx,.xlsx,2.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_MONTHLY_Department_of_Agriculture.xlsx,.xlsx,12.4,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_MONTHLY_Department_of_Commerce.xlsx,.xlsx,4.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_MONTHLY_Department_of_Defense_Military.xlsx,.xlsx,15.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_MONTHLY_Department_of_Education.xlsx,.xlsx,3.8,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_MONTHLY_Department_of_Energy.xlsx,.xlsx,3.9,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_MONTHLY_Department_of_Health_and_Human_Services.xlsx,.xlsx,14.4,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_MONTHLY_Department_of_Homeland_Security.xlsx,.xlsx,8.5,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_MONTHLY_Department_of_Housing_and_Urban_Development.xlsx,.xlsx,6.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_MONTHLY_Department_of_Justice.xlsx,.xlsx,4.4,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_MONTHLY_Department_of_Labor.xlsx,.xlsx,4.1,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_MONTHLY_Department_of_State.xlsx,.xlsx,4.5,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_MONTHLY_Department_of_Transportation.xlsx,.xlsx,6.7,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_MONTHLY_Department_of_Veterans_Affairs.xlsx,.xlsx,5.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_MONTHLY_Department_of_the_Interior.xlsx,.xlsx,7.3,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_MONTHLY_Department_of_the_Treasury.xlsx,.xlsx,5.3,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_MONTHLY_Environmental_Protection_Agency.xlsx,.xlsx,2.3,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_MONTHLY_Executive_Office_of_the_President.xlsx,.xlsx,2.6,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_MONTHLY_General_Services_Administration.xlsx,.xlsx,2.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_MONTHLY_International_Assistance_Programs.xlsx,.xlsx,7.3,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_MONTHLY_Judicial_Branch.xlsx,.xlsx,2.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_MONTHLY_Legislative_Branch.xlsx,.xlsx,4.1,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_MONTHLY_National_Aeronautics_and_Space_Administration.xlsx,.xlsx,2.6,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_MONTHLY_National_Science_Foundation.xlsx,.xlsx,2.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_MONTHLY_Office_of_Personnel_Management.xlsx,.xlsx,1.9,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_MONTHLY_Other_Defense_Civil_Programs.xlsx,.xlsx,1.8,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_MONTHLY_Other_Independent_Agencies.xlsx,.xlsx,11.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_MONTHLY_Small_Business_Administration.xlsx,.xlsx,3.5,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_MONTHLY_Social_Security_Administration.xlsx,.xlsx,1.9,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_National_Aeronautics_and_Space_Administration.xlsx,.xlsx,2.9,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_National_Science_Foundation.xlsx,.xlsx,2.3,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_Office_of_Personnel_Management.xlsx,.xlsx,2.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_Other_Defense_Civil_Programs.xlsx,.xlsx,2.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_Other_Independent_Agencies.xlsx,.xlsx,10.3,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_Small_Business_Administration.xlsx,.xlsx,3.8,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,FY2022_SF133_Social_Security_Administration.xlsx,.xlsx,2.3,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2022,Rpt_SS_All_Othr_Exec_2022.xlsx,.xlsx,7.6,True,Sheet1,False
+2022,Rpt_SS_Cab_Dept_Agriculture_2022.xlsx,.xlsx,3.2,True,Sheet1,False
+2022,Rpt_SS_Cab_Dept_Commerce_Defense--Military_2022.xlsx,.xlsx,5.0,True,Sheet1,False
+2022,Rpt_SS_Cab_Dept_Education_Energy_Health_Human_Services_2022.xlsx,.xlsx,6.0,True,Sheet1,False
+2022,Rpt_SS_Cab_Dept_Homeland_HUD_Interior_2022.xlsx,.xlsx,5.6,True,Sheet1,False
+2022,Rpt_SS_Cab_Dept_Justice_Labor_State_2022.xlsx,.xlsx,3.1,True,Sheet1,False
+2022,Rpt_SS_Cab_Dept_Treasury_Transportation_VA_2022.xlsx,.xlsx,4.3,True,Sheet1,False
+2022,Rpt_SS_Cab_Leg_Judicial_2022.xlsx,.xlsx,1.3,True,Sheet1,False
+2022,SF133 DEFC_FY2022_Sep.xlsx,.xlsx,17.3,True,TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2023,2346466705.xlsx,.xlsx,5.5,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2023,2346466706.xlsx,.xlsx,6.8,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2023,2346466707.xlsx,.xlsx,5.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2023,2346466709.xlsx,.xlsx,2.3,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2023,2346466710.xlsx,.xlsx,2.7,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2023,2346466712.xlsx,.xlsx,2.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2023,2346466715.xlsx,.xlsx,7.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2023,2346466716.xlsx,.xlsx,2.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2023,2346466717.xlsx,.xlsx,4.1,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2023,2346466718.xlsx,.xlsx,2.6,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2023,2346466719.xlsx,.xlsx,2.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2023,2346466720.xlsx,.xlsx,1.9,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2023,2346466722.xlsx,.xlsx,1.8,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2023,2346466725.xlsx,.xlsx,11.4,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2023,2346466727.xlsx,.xlsx,3.5,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2023,2346466728.xlsx,.xlsx,2.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2023,2346466729.xlsx,.xlsx,2.1,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2023,2346466733.xlsx,.xlsx,12.7,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2023,2346466736.xlsx,.xlsx,4.4,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2023,2346466737.xlsx,.xlsx,15.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2023,2346466738.xlsx,.xlsx,3.8,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2023,2346466739.xlsx,.xlsx,4.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2023,2346466741.xlsx,.xlsx,14.6,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2023,2346466743.xlsx,.xlsx,8.7,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2023,2346466745.xlsx,.xlsx,6.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2023,2346466747.xlsx,.xlsx,4.6,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2023,2346466749.xlsx,.xlsx,4.1,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2023,2346466751.xlsx,.xlsx,4.8,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2023,2346466753.xlsx,.xlsx,7.6,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2023,2354356482.xlsx,.xlsx,5.8,True,Sheet1,False
+2023,2354356484.xlsx,.xlsx,3.0,True,Sheet1,False
+2023,2354356486.xlsx,.xlsx,4.4,True,Sheet1,False
+2023,2354356487.xlsx,.xlsx,1.4,True,Sheet1,False
+2023,2354356489.xlsx,.xlsx,4.9,True,Sheet1,False
+2023,2354356491.xlsx,.xlsx,6.1,True,Sheet1,False
+2023,2354356601.xlsx,.xlsx,3.2,True,Sheet1,False
+2023,2354356602.xlsx,.xlsx,7.7,True,Sheet1,False
+2023,2354356658.xls,.xls,0.8,False,,False
+2023,2374423600.xls,.xls,1.0,False,,False
+2023,2398882072.xls,.xls,1.0,False,,False
+2023,2408395836.xls,.xls,1.0,False,,False
+2023,2416392195.xls,.xls,1.0,False,,False
+2023,2422755585.xlsx,.xlsx,25.7,True,TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2023,2429313954.xls,.xls,1.1,False,,False
+2024,2438300606.xlsx,.xlsx,5.9,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2024,2438300607.xlsx,.xlsx,5.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2024,2438300608.xlsx,.xlsx,3.3,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2024,2438300609.xlsx,.xlsx,6.6,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2024,2438300611.xlsx,.xlsx,6.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2024,2438300612.xlsx,.xlsx,5.4,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2024,2438300613.xlsx,.xlsx,5.9,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2024,2438300614.xlsx,.xlsx,8.9,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2024,2438300615.xlsx,.xlsx,15.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2024,2438300616.xlsx,.xlsx,15.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2024,2438300617.xlsx,.xlsx,5.6,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2024,2438300618.xlsx,.xlsx,13.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2024,2438300619.xlsx,.xlsx,3.3,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2024,2438300620.xlsx,.xlsx,5.5,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2024,2438300621.xlsx,.xlsx,12.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2024,2438300622.xlsx,.xlsx,3.3,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2024,2438300623.xlsx,.xlsx,3.4,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2024,2438300624.xlsx,.xlsx,3.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2024,2438300625.xlsx,.xlsx,8.1,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2024,2438300626.xlsx,.xlsx,4.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2024,2438300627.xlsx,.xlsx,6.6,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2024,2438300628.xlsx,.xlsx,4.9,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2024,2438300629.xlsx,.xlsx,3.3,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2024,2438300630.xlsx,.xlsx,4.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2024,2438300631.xlsx,.xlsx,7.5,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2024,2438300632.xlsx,.xlsx,9.7,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2024,2438300633.xlsx,.xlsx,3.6,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2024,2438300634.xlsx,.xlsx,8.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2024,2438300635.xlsx,.xlsx,3.8,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2024,2454160352.xls,.xls,0.6,False,,False
+2024,2454160373.xlsx,.xlsx,6.4,True,Sheet1,False
+2024,2454160374.xlsx,.xlsx,6.1,True,Sheet1,False
+2024,2454160375.xlsx,.xlsx,3.1,True,Sheet1,False
+2024,2454160376.xlsx,.xlsx,4.5,True,Sheet1,False
+2024,2454160377.xlsx,.xlsx,1.4,True,Sheet1,False
+2024,2454160378.xlsx,.xlsx,8.0,True,Sheet1,False
+2024,2454160379.xlsx,.xlsx,3.4,True,Sheet1,False
+2024,2454160380.xlsx,.xlsx,4.6,True,Sheet1,False
+2024,2498463819.xls,.xls,0.8,False,,False
+2024,2544076529.xls,.xls,0.9,False,,False
+2024,2550433951.xls,.xls,0.9,False,,False
+2024,2558201438.xls,.xls,0.9,False,,False
+2024,2566521234.xlsx,.xlsx,26.8,True,TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2024,2566521315.xls,.xls,0.0,False,,False
+2025,Ab_Sign_Rpt_2025_02.xls,.xls,0.5,False,,False
+2025,Ab_Sign_Rpt_2025_03.xls,.xls,0.6,False,,False
+2025,Ab_Sign_Rpt_2025_06.xls,.xls,0.8,False,,False
+2025,Ab_Sign_Rpt_2025_09.xls,.xls,0.9,False,,False
+2025,Ab_Sign_Rpt_2025_11.xls,.xls,0.9,False,,False
+2025,Ab_Sign_Rpt_2025_12.xls,.xls,1.0,False,,False
+2025,FY2025_SF133_MONTHLY_Corps_of_Engineers_Civil_Works.xlsx,.xlsx,3.4,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2025,FY2025_SF133_MONTHLY_Department_of_Agriculture.xlsx,.xlsx,13.1,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2025,FY2025_SF133_MONTHLY_Department_of_Commerce.xlsx,.xlsx,5.7,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2025,FY2025_SF133_MONTHLY_Department_of_Defense_Military.xlsx,.xlsx,15.5,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2025,FY2025_SF133_MONTHLY_Department_of_Education.xlsx,.xlsx,5.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2025,FY2025_SF133_MONTHLY_Department_of_Energy.xlsx,.xlsx,6.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2025,FY2025_SF133_MONTHLY_Department_of_Health_and_Human_Services.xlsx,.xlsx,15.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2025,FY2025_SF133_MONTHLY_Department_of_Homeland_Security.xlsx,.xlsx,9.9,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2025,FY2025_SF133_MONTHLY_Department_of_Housing_and_Urban_Development.xlsx,.xlsx,7.7,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2025,FY2025_SF133_MONTHLY_Department_of_Justice.xlsx,.xlsx,6.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2025,FY2025_SF133_MONTHLY_Department_of_Labor.xlsx,.xlsx,5.4,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2025,FY2025_SF133_MONTHLY_Department_of_State.xlsx,.xlsx,6.1,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2025,FY2025_SF133_MONTHLY_Department_of_Transportation.xlsx,.xlsx,8.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2025,FY2025_SF133_MONTHLY_Department_of_Veterans_Affairs.xlsx,.xlsx,6.8,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2025,FY2025_SF133_MONTHLY_Department_of_the_Interior.xlsx,.xlsx,8.9,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2025,FY2025_SF133_MONTHLY_Department_of_the_Treasury.xlsx,.xlsx,6.5,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2025,FY2025_SF133_MONTHLY_Environmental_Protection_Agency.xlsx,.xlsx,3.8,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2025,FY2025_SF133_MONTHLY_Executive_Office_of_the_President.xlsx,.xlsx,4.4,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2025,FY2025_SF133_MONTHLY_General_Services_Administration.xlsx,.xlsx,3.6,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2025,FY2025_SF133_MONTHLY_International_Assistance_Programs.xlsx,.xlsx,8.1,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2025,FY2025_SF133_MONTHLY_Judicial_Branch.xlsx,.xlsx,3.4,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2025,FY2025_SF133_MONTHLY_Legislative_Branch.xlsx,.xlsx,5.5,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2025,FY2025_SF133_MONTHLY_National_Aeronautics_and_Space_Administration.xlsx,.xlsx,4.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2025,FY2025_SF133_MONTHLY_National_Science_Foundation.xlsx,.xlsx,3.3,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2025,FY2025_SF133_MONTHLY_Office_of_Personnel_Management.xlsx,.xlsx,3.3,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2025,FY2025_SF133_MONTHLY_Other_Defense_Civil_Programs.xlsx,.xlsx,3.2,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2025,FY2025_SF133_MONTHLY_Other_Independent_Agencies.xlsx,.xlsx,12.0,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2025,FY2025_SF133_MONTHLY_Small_Business_Administration.xlsx,.xlsx,4.9,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2025,FY2025_SF133_MONTHLY_Social_Security_Administration.xlsx,.xlsx,3.3,True,Instructions|TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True
+2025,GTAS_Unobligated_Balances_2025_05.xlsx,.xlsx,2.2,True,Report|Data,False
+2025,GTAS_Unobligated_Balances_2025_06.xlsx,.xlsx,2.3,True,Report|Data,False
+2025,GTAS_Unobligated_Balances_2025_07.xlsx,.xlsx,2.2,True,Report|Data,False
+2025,GTAS_Unobligated_Balances_2025_08.xlsx,.xlsx,2.2,True,Report|Data,False
+2025,GTAS_Unobligated_Balances_2025_09.xlsx,.xlsx,2.3,True,Report|Data,False
+2025,GTAS_Unobligated_Balances_2025_10.xlsx,.xlsx,2.3,True,Report|Data,False
+2025,GTAS_Unobligated_Balances_2025_11.xlsx,.xlsx,2.3,True,Report|Data,False
+2025,GTAS_Unobligated_Balances_2025_12.xlsx,.xlsx,2.2,True,Report|Data,False
+2025,Rpt_SS_All_Othr_Exec_2025.xlsx,.xlsx,8.1,True,Sheet1,False
+2025,Rpt_SS_Cab_Dept_Agriculture_2025.xlsx,.xlsx,3.3,True,Sheet1,False
+2025,Rpt_SS_Cab_Dept_Commerce_Defense--Military_2025.xlsx,.xlsx,5.1,True,Sheet1,False
+2025,Rpt_SS_Cab_Dept_Education_Energy_Health_Human_Services_2025.xlsx,.xlsx,6.5,True,Sheet1,False
+2025,Rpt_SS_Cab_Dept_Homeland_HUD_Interior_2025.xlsx,.xlsx,6.2,True,Sheet1,False
+2025,Rpt_SS_Cab_Dept_Justice_Labor_State_2025.xlsx,.xlsx,3.4,True,Sheet1,False
+2025,Rpt_SS_Cab_Dept_Treasury_Transportation_VA_2025.xlsx,.xlsx,4.6,True,Sheet1,False
+2025,Rpt_SS_Cab_Leg_Judicial_2025.xlsx,.xlsx,1.4,True,Sheet1,False
+2025,SF133%20DEFC_FY2025_Sep.xlsx,.xlsx,28.8,True,TAFS detail|Account Total|Bureau Total|Agency Total|Raw Data,True

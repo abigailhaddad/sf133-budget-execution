@@ -1,0 +1,26 @@
+{
+ "rows": 3060954,
+ "workbooks": 261,
+ "workbooks_where_table_rows_differ_from_raw_rows": 0,
+ "rows_dropped_for_missing_line_no": 0,
+ "line_keys_in_more_than_one_workbook": 0,
+ "duplicate_row_ids": 0,
+ "line_keys_repeated_within_a_workbook": 35792,
+ "rows_in_those_keys": 312556,
+ "tafs_under_more_than_one_agency_in_a_year": 0,
+ "spot_rows": 104,
+ "spot_fields_checked": 2080,
+ "spot_mismatches": 0,
+ "spot_mismatch_examples": [],
+ "spot_cases": {
+  "random": 60,
+  "negative value": 6,
+  "no-year (/X) account": 6,
+  "multi-year account": 6,
+  "Category B activity line": 6,
+  "financing account": 6,
+  "gift or donation account": 6,
+  "largest September value": 4,
+  "FDIC deposit insurance fund FY2025": 4
+ }
+}

@@ -1,0 +1,262 @@
+fiscal_year,file,path,rows,n_agency,first_agency
+2018,1405160423.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2018/1405160423.xlsx,14084,1,Department of the Interior
+2018,1405160425.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2018/1405160425.xlsx,9901,1,Department of the Treasury
+2018,1405160427.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2018/1405160427.xlsx,13956,1,Department of Transportation
+2018,1405160432.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2018/1405160432.xlsx,9639,1,Department of Veterans Affairs
+2018,1405160436.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2018/1405160436.xlsx,2110,1,Environmental Protection Agency
+2018,1405160439.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2018/1405160439.xlsx,2961,1,Executive Office of the President
+2018,1405160443.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2018/1405160443.xlsx,2056,1,General Services Administration
+2018,1405160445.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2018/1405160445.xlsx,16026,1,International Assistance Programs
+2018,1405160446.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2018/1405160446.xlsx,2046,1,Judicial Branch
+2018,1405160449.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2018/1405160449.xlsx,8276,1,Legislative Branch
+2018,1405160458.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2018/1405160458.xlsx,3447,1,National Aeronautics and Space Administration
+2018,1405160461.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2018/1405160461.xlsx,1550,1,National Science Foundation
+2018,1405160463.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2018/1405160463.xlsx,1122,1,Office of Personnel Management
+2018,1405160467.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2018/1405160467.xlsx,1163,1,Other Defense Civil Programs
+2018,1405160468.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2018/1405160468.xlsx,5491,1,Small Business Administration
+2018,1405160471.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2018/1405160471.xlsx,1424,1,Social Security Administration
+2018,1405160475.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2018/1405160475.xlsx,1481,1,Corps of Engineers--Civil Works
+2018,1405160477.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2018/1405160477.xlsx,23358,1,Department of Agriculture
+2018,1405160478.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2018/1405160478.xlsx,7199,1,Department of Commerce
+2018,1405160479.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2018/1405160479.xlsx,28730,1,Department of Defense--Military Programs
+2018,1405160484.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2018/1405160484.xlsx,6676,1,Department of Education
+2018,1405160487.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2018/1405160487.xlsx,5028,1,Department of Energy
+2018,1405160493.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2018/1405160493.xlsx,29331,1,Department of Health and Human Services
+2018,1405160495.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2018/1405160495.xlsx,18309,1,Department of Homeland Security
+2018,1405160499.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2018/1405160499.xlsx,12228,1,Department of Housing and Urban Development
+2018,1405160501.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2018/1405160501.xlsx,7231,1,Department of Justice
+2018,1405160505.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2018/1405160505.xlsx,7293,1,Department of Labor
+2018,1405160508.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2018/1405160508.xlsx,8735,1,Department of State
+2018,1405879656.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2018/1405879656.xlsx,20649,92,Access Board
+2019,FY2019_SF133_MONTHLY_Corps_of_Engineers_Civil_Works.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2019/FY2019_SF133_MONTHLY_Corps_of_Engineers_Civil_Works.xlsx,1462,1,Corps of Engineers--Civil Works
+2019,FY2019_SF133_MONTHLY_Department_of_Agriculture.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2019/FY2019_SF133_MONTHLY_Department_of_Agriculture.xlsx,23378,1,Department of Agriculture
+2019,FY2019_SF133_MONTHLY_Department_of_Commerce.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2019/FY2019_SF133_MONTHLY_Department_of_Commerce.xlsx,7349,1,Department of Commerce
+2019,FY2019_SF133_MONTHLY_Department_of_Defense_Military.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2019/FY2019_SF133_MONTHLY_Department_of_Defense_Military.xlsx,28544,1,Department of Defense--Military Programs
+2019,FY2019_SF133_MONTHLY_Department_of_Education.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2019/FY2019_SF133_MONTHLY_Department_of_Education.xlsx,8087,1,Department of Education
+2019,FY2019_SF133_MONTHLY_Department_of_Energy.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2019/FY2019_SF133_MONTHLY_Department_of_Energy.xlsx,5544,1,Department of Energy
+2019,FY2019_SF133_MONTHLY_Department_of_Health_and_Human_Services.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2019/FY2019_SF133_MONTHLY_Department_of_Health_and_Human_Services.xlsx,29418,1,Department of Health and Human Services
+2019,FY2019_SF133_MONTHLY_Department_of_Homeland_Security.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2019/FY2019_SF133_MONTHLY_Department_of_Homeland_Security.xlsx,18123,1,Department of Homeland Security
+2019,FY2019_SF133_MONTHLY_Department_of_Housing_and_Urban_Development.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2019/FY2019_SF133_MONTHLY_Department_of_Housing_and_Urban_Development.xlsx,12795,1,Department of Housing and Urban Development
+2019,FY2019_SF133_MONTHLY_Department_of_Justice.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2019/FY2019_SF133_MONTHLY_Department_of_Justice.xlsx,7444,1,Department of Justice
+2019,FY2019_SF133_MONTHLY_Department_of_Labor.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2019/FY2019_SF133_MONTHLY_Department_of_Labor.xlsx,7661,1,Department of Labor
+2019,FY2019_SF133_MONTHLY_Department_of_State.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2019/FY2019_SF133_MONTHLY_Department_of_State.xlsx,8458,1,Department of State
+2019,FY2019_SF133_MONTHLY_Department_of_Transportation.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2019/FY2019_SF133_MONTHLY_Department_of_Transportation.xlsx,14000,1,Department of Transportation
+2019,FY2019_SF133_MONTHLY_Department_of_Veterans_Affairs.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2019/FY2019_SF133_MONTHLY_Department_of_Veterans_Affairs.xlsx,9237,1,Department of Veterans Affairs
+2019,FY2019_SF133_MONTHLY_Department_of_the_Interior.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2019/FY2019_SF133_MONTHLY_Department_of_the_Interior.xlsx,13805,1,Department of the Interior
+2019,FY2019_SF133_MONTHLY_Department_of_the_Treasury.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2019/FY2019_SF133_MONTHLY_Department_of_the_Treasury.xlsx,9874,1,Department of the Treasury
+2019,FY2019_SF133_MONTHLY_Environmental_Protection_Agency.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2019/FY2019_SF133_MONTHLY_Environmental_Protection_Agency.xlsx,2034,1,Environmental Protection Agency
+2019,FY2019_SF133_MONTHLY_Executive_Office_of_the_President.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2019/FY2019_SF133_MONTHLY_Executive_Office_of_the_President.xlsx,2883,1,Executive Office of the President
+2019,FY2019_SF133_MONTHLY_General_Services_Administration.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2019/FY2019_SF133_MONTHLY_General_Services_Administration.xlsx,2149,1,General Services Administration
+2019,FY2019_SF133_MONTHLY_International_Assistance_Programs.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2019/FY2019_SF133_MONTHLY_International_Assistance_Programs.xlsx,16161,1,International Assistance Programs
+2019,FY2019_SF133_MONTHLY_Judicial_Branch.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2019/FY2019_SF133_MONTHLY_Judicial_Branch.xlsx,2047,1,Judicial Branch
+2019,FY2019_SF133_MONTHLY_Legislative_Branch.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2019/FY2019_SF133_MONTHLY_Legislative_Branch.xlsx,8692,1,Legislative Branch
+2019,FY2019_SF133_MONTHLY_National_Aeronautics_and_Space_Administration.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2019/FY2019_SF133_MONTHLY_National_Aeronautics_and_Space_Administration.xlsx,3528,1,National Aeronautics and Space Administration
+2019,FY2019_SF133_MONTHLY_National_Science_Foundation.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2019/FY2019_SF133_MONTHLY_National_Science_Foundation.xlsx,1517,1,National Science Foundation
+2019,FY2019_SF133_MONTHLY_Office_of_Personnel_Management.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2019/FY2019_SF133_MONTHLY_Office_of_Personnel_Management.xlsx,1111,1,Office of Personnel Management
+2019,FY2019_SF133_MONTHLY_Other_Defense_Civil_Programs.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2019/FY2019_SF133_MONTHLY_Other_Defense_Civil_Programs.xlsx,1287,1,Other Defense Civil Programs
+2019,FY2019_SF133_MONTHLY_Other_Independent_Agencies.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2019/FY2019_SF133_MONTHLY_Other_Independent_Agencies.xlsx,20681,95,Access Board
+2019,FY2019_SF133_MONTHLY_Small_Business_Administration.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2019/FY2019_SF133_MONTHLY_Small_Business_Administration.xlsx,5630,1,Small Business Administration
+2019,FY2019_SF133_MONTHLY_Social_Security_Administration.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2019/FY2019_SF133_MONTHLY_Social_Security_Administration.xlsx,1436,1,Social Security Administration
+2020,FY2020_SF133_MONTHLY_Corps_of_Engineers_Civil_Works.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2020/FY2020_SF133_MONTHLY_Corps_of_Engineers_Civil_Works.xlsx,1771,1,Corps of Engineers--Civil Works
+2020,FY2020_SF133_MONTHLY_Department_of_Agriculture.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2020/FY2020_SF133_MONTHLY_Department_of_Agriculture.xlsx,29365,1,Department of Agriculture
+2020,FY2020_SF133_MONTHLY_Department_of_Commerce.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2020/FY2020_SF133_MONTHLY_Department_of_Commerce.xlsx,8733,1,Department of Commerce
+2020,FY2020_SF133_MONTHLY_Department_of_Defense_Military.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2020/FY2020_SF133_MONTHLY_Department_of_Defense_Military.xlsx,35416,1,Department of Defense--Military Programs
+2020,FY2020_SF133_MONTHLY_Department_of_Education.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2020/FY2020_SF133_MONTHLY_Department_of_Education.xlsx,8604,1,Department of Education
+2020,FY2020_SF133_MONTHLY_Department_of_Energy.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2020/FY2020_SF133_MONTHLY_Department_of_Energy.xlsx,6692,1,Department of Energy
+2020,FY2020_SF133_MONTHLY_Department_of_Health_and_Human_Services.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2020/FY2020_SF133_MONTHLY_Department_of_Health_and_Human_Services.xlsx,36535,1,Department of Health and Human Services
+2020,FY2020_SF133_MONTHLY_Department_of_Homeland_Security.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2020/FY2020_SF133_MONTHLY_Department_of_Homeland_Security.xlsx,21331,1,Department of Homeland Security
+2020,FY2020_SF133_MONTHLY_Department_of_Housing_and_Urban_Development.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2020/FY2020_SF133_MONTHLY_Department_of_Housing_and_Urban_Development.xlsx,16814,1,Department of Housing and Urban Development
+2020,FY2020_SF133_MONTHLY_Department_of_Justice.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2020/FY2020_SF133_MONTHLY_Department_of_Justice.xlsx,9103,1,Department of Justice
+2020,FY2020_SF133_MONTHLY_Department_of_Labor.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2020/FY2020_SF133_MONTHLY_Department_of_Labor.xlsx,9203,1,Department of Labor
+2020,FY2020_SF133_MONTHLY_Department_of_State.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2020/FY2020_SF133_MONTHLY_Department_of_State.xlsx,10497,1,Department of State
+2020,FY2020_SF133_MONTHLY_Department_of_Transportation.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2020/FY2020_SF133_MONTHLY_Department_of_Transportation.xlsx,17141,1,Department of Transportation
+2020,FY2020_SF133_MONTHLY_Department_of_Veterans_Affairs.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2020/FY2020_SF133_MONTHLY_Department_of_Veterans_Affairs.xlsx,12303,1,Department of Veterans Affairs
+2020,FY2020_SF133_MONTHLY_Department_of_the_Interior.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2020/FY2020_SF133_MONTHLY_Department_of_the_Interior.xlsx,16777,1,Department of the Interior
+2020,FY2020_SF133_MONTHLY_Department_of_the_Treasury.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2020/FY2020_SF133_MONTHLY_Department_of_the_Treasury.xlsx,12165,1,Department of the Treasury
+2020,FY2020_SF133_MONTHLY_Environmental_Protection_Agency.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2020/FY2020_SF133_MONTHLY_Environmental_Protection_Agency.xlsx,2579,1,Environmental Protection Agency
+2020,FY2020_SF133_MONTHLY_Executive_Office_of_the_President.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2020/FY2020_SF133_MONTHLY_Executive_Office_of_the_President.xlsx,3820,1,Executive Office of the President
+2020,FY2020_SF133_MONTHLY_General_Services_Administration.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2020/FY2020_SF133_MONTHLY_General_Services_Administration.xlsx,2602,1,General Services Administration
+2020,FY2020_SF133_MONTHLY_International_Assistance_Programs.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2020/FY2020_SF133_MONTHLY_International_Assistance_Programs.xlsx,21894,1,International Assistance Programs
+2020,FY2020_SF133_MONTHLY_Judicial_Branch.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2020/FY2020_SF133_MONTHLY_Judicial_Branch.xlsx,2463,1,Judicial Branch
+2020,FY2020_SF133_MONTHLY_Legislative_Branch.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2020/FY2020_SF133_MONTHLY_Legislative_Branch.xlsx,10894,1,Legislative Branch
+2020,FY2020_SF133_MONTHLY_National_Aeronautics_and_Space_Administration.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2020/FY2020_SF133_MONTHLY_National_Aeronautics_and_Space_Administration.xlsx,4231,1,National Aeronautics and Space Administration
+2020,FY2020_SF133_MONTHLY_Office_of_Personnel_Management.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2020/FY2020_SF133_MONTHLY_Office_of_Personnel_Management.xlsx,1400,1,Office of Personnel Management
+2020,FY2020_SF133_MONTHLY_Other_Defense_Civil_Programs.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2020/FY2020_SF133_MONTHLY_Other_Defense_Civil_Programs.xlsx,1677,1,Other Defense Civil Programs
+2020,FY2020_SF133_MONTHLY_Small_Business_Administration.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2020/FY2020_SF133_MONTHLY_Small_Business_Administration.xlsx,7045,1,Small Business Administration
+2020,FY2020_SF133_MONTHLY_Social_Security_Administration.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2020/FY2020_SF133_MONTHLY_Social_Security_Administration.xlsx,1782,1,Social Security Administration
+2020,FY2020_SF133_National_Science_Foundation.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2020/FY2020_SF133_National_Science_Foundation.xlsx,1915,1,National Science Foundation
+2020,FY2020_SF133_Other_Independent_Agencies.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2020/FY2020_SF133_Other_Independent_Agencies.xlsx,25369,97,400 Years of African-American History Commission
+2021,FY2021_SF133_Judicial_Branch.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2021/FY2021_SF133_Judicial_Branch.xlsx,2498,1,Judicial Branch
+2021,FY2021_SF133_MONTHLY_Corps_of_Engineers_Civil_Works.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2021/FY2021_SF133_MONTHLY_Corps_of_Engineers_Civil_Works.xlsx,1905,1,Corps of Engineers--Civil Works
+2021,FY2021_SF133_MONTHLY_Department_of_Agriculture.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2021/FY2021_SF133_MONTHLY_Department_of_Agriculture.xlsx,30311,1,Department of Agriculture
+2021,FY2021_SF133_MONTHLY_Department_of_Commerce.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2021/FY2021_SF133_MONTHLY_Department_of_Commerce.xlsx,8756,1,Department of Commerce
+2021,FY2021_SF133_MONTHLY_Department_of_Defense_Military.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2021/FY2021_SF133_MONTHLY_Department_of_Defense_Military.xlsx,35989,1,Department of Defense--Military Programs
+2021,FY2021_SF133_MONTHLY_Department_of_Education.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2021/FY2021_SF133_MONTHLY_Department_of_Education.xlsx,8799,1,Department of Education
+2021,FY2021_SF133_MONTHLY_Department_of_Energy.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2021/FY2021_SF133_MONTHLY_Department_of_Energy.xlsx,7034,1,Department of Energy
+2021,FY2021_SF133_MONTHLY_Department_of_Health_and_Human_Services.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2021/FY2021_SF133_MONTHLY_Department_of_Health_and_Human_Services.xlsx,38178,1,Department of Health and Human Services
+2021,FY2021_SF133_MONTHLY_Department_of_Homeland_Security.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2021/FY2021_SF133_MONTHLY_Department_of_Homeland_Security.xlsx,21684,1,Department of Homeland Security
+2021,FY2021_SF133_MONTHLY_Department_of_Housing_and_Urban_Development.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2021/FY2021_SF133_MONTHLY_Department_of_Housing_and_Urban_Development.xlsx,17941,1,Department of Housing and Urban Development
+2021,FY2021_SF133_MONTHLY_Department_of_Justice.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2021/FY2021_SF133_MONTHLY_Department_of_Justice.xlsx,9089,1,Department of Justice
+2021,FY2021_SF133_MONTHLY_Department_of_Labor.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2021/FY2021_SF133_MONTHLY_Department_of_Labor.xlsx,9419,1,Department of Labor
+2021,FY2021_SF133_MONTHLY_Department_of_State.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2021/FY2021_SF133_MONTHLY_Department_of_State.xlsx,10592,1,Department of State
+2021,FY2021_SF133_MONTHLY_Department_of_Transportation.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2021/FY2021_SF133_MONTHLY_Department_of_Transportation.xlsx,16706,1,Department of Transportation
+2021,FY2021_SF133_MONTHLY_Department_of_Veterans_Affairs.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2021/FY2021_SF133_MONTHLY_Department_of_Veterans_Affairs.xlsx,10233,1,Department of Veterans Affairs
+2021,FY2021_SF133_MONTHLY_Department_of_the_Interior.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2021/FY2021_SF133_MONTHLY_Department_of_the_Interior.xlsx,16963,1,Department of the Interior
+2021,FY2021_SF133_MONTHLY_Department_of_the_Treasury.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2021/FY2021_SF133_MONTHLY_Department_of_the_Treasury.xlsx,12587,1,Department of the Treasury
+2021,FY2021_SF133_MONTHLY_Environmental_Protection_Agency.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2021/FY2021_SF133_MONTHLY_Environmental_Protection_Agency.xlsx,2590,1,Environmental Protection Agency
+2021,FY2021_SF133_MONTHLY_Executive_Office_of_the_President.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2021/FY2021_SF133_MONTHLY_Executive_Office_of_the_President.xlsx,4050,1,Executive Office of the President
+2021,FY2021_SF133_MONTHLY_General_Services_Administration.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2021/FY2021_SF133_MONTHLY_General_Services_Administration.xlsx,2528,1,General Services Administration
+2021,FY2021_SF133_MONTHLY_International_Assistance_Programs.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2021/FY2021_SF133_MONTHLY_International_Assistance_Programs.xlsx,19908,1,International Assistance Programs
+2021,FY2021_SF133_MONTHLY_Legislative_Branch.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2021/FY2021_SF133_MONTHLY_Legislative_Branch.xlsx,10985,1,Legislative Branch
+2021,FY2021_SF133_MONTHLY_National_Aeronautics_and_Space_Administration.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2021/FY2021_SF133_MONTHLY_National_Aeronautics_and_Space_Administration.xlsx,4187,1,National Aeronautics and Space Administration
+2021,FY2021_SF133_MONTHLY_National_Science_Foundation.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2021/FY2021_SF133_MONTHLY_National_Science_Foundation.xlsx,1922,1,National Science Foundation
+2021,FY2021_SF133_MONTHLY_Office_of_Personnel_Management.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2021/FY2021_SF133_MONTHLY_Office_of_Personnel_Management.xlsx,1537,1,Office of Personnel Management
+2021,FY2021_SF133_MONTHLY_Other_Defense_Civil_Programs.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2021/FY2021_SF133_MONTHLY_Other_Defense_Civil_Programs.xlsx,1590,1,Other Defense--Civil Programs
+2021,FY2021_SF133_MONTHLY_Other_Independent_Agencies.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2021/FY2021_SF133_MONTHLY_Other_Independent_Agencies.xlsx,25945,95,400 Years of African-American History Commission
+2021,FY2021_SF133_MONTHLY_Small_Business_Administration.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2021/FY2021_SF133_MONTHLY_Small_Business_Administration.xlsx,7038,1,Small Business Administration
+2021,FY2021_SF133_MONTHLY_Social_Security_Administration.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2021/FY2021_SF133_MONTHLY_Social_Security_Administration.xlsx,1806,1,Social Security Administration
+2022,FY2022_SF133_MONTHLY_Corps_of_Engineers_Civil_Works.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2022/FY2022_SF133_MONTHLY_Corps_of_Engineers_Civil_Works.xlsx,1957,1,Corps of Engineers--Civil Works
+2022,FY2022_SF133_MONTHLY_Department_of_Agriculture.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2022/FY2022_SF133_MONTHLY_Department_of_Agriculture.xlsx,31197,1,Department of Agriculture
+2022,FY2022_SF133_MONTHLY_Department_of_Commerce.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2022/FY2022_SF133_MONTHLY_Department_of_Commerce.xlsx,9120,1,Department of Commerce
+2022,FY2022_SF133_MONTHLY_Department_of_Defense_Military.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2022/FY2022_SF133_MONTHLY_Department_of_Defense_Military.xlsx,36976,1,Department of Defense--Military Programs
+2022,FY2022_SF133_MONTHLY_Department_of_Education.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2022/FY2022_SF133_MONTHLY_Department_of_Education.xlsx,8760,1,Department of Education
+2022,FY2022_SF133_MONTHLY_Department_of_Energy.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2022/FY2022_SF133_MONTHLY_Department_of_Energy.xlsx,7919,1,Department of Energy
+2022,FY2022_SF133_MONTHLY_Department_of_Health_and_Human_Services.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2022/FY2022_SF133_MONTHLY_Department_of_Health_and_Human_Services.xlsx,38381,1,Department of Health and Human Services
+2022,FY2022_SF133_MONTHLY_Department_of_Homeland_Security.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2022/FY2022_SF133_MONTHLY_Department_of_Homeland_Security.xlsx,21617,1,Department of Homeland Security
+2022,FY2022_SF133_MONTHLY_Department_of_Housing_and_Urban_Development.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2022/FY2022_SF133_MONTHLY_Department_of_Housing_and_Urban_Development.xlsx,17819,1,Department of Housing and Urban Development
+2022,FY2022_SF133_MONTHLY_Department_of_Justice.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2022/FY2022_SF133_MONTHLY_Department_of_Justice.xlsx,9177,1,Department of Justice
+2022,FY2022_SF133_MONTHLY_Department_of_Labor.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2022/FY2022_SF133_MONTHLY_Department_of_Labor.xlsx,9486,1,Department of Labor
+2022,FY2022_SF133_MONTHLY_Department_of_State.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2022/FY2022_SF133_MONTHLY_Department_of_State.xlsx,10828,1,Department of State
+2022,FY2022_SF133_MONTHLY_Department_of_Transportation.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2022/FY2022_SF133_MONTHLY_Department_of_Transportation.xlsx,17795,1,Department of Transportation
+2022,FY2022_SF133_MONTHLY_Department_of_Veterans_Affairs.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2022/FY2022_SF133_MONTHLY_Department_of_Veterans_Affairs.xlsx,13080,1,Department of Veterans Affairs
+2022,FY2022_SF133_MONTHLY_Department_of_the_Interior.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2022/FY2022_SF133_MONTHLY_Department_of_the_Interior.xlsx,18109,1,Department of the Interior
+2022,FY2022_SF133_MONTHLY_Department_of_the_Treasury.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2022/FY2022_SF133_MONTHLY_Department_of_the_Treasury.xlsx,13008,1,Department of the Treasury
+2022,FY2022_SF133_MONTHLY_Environmental_Protection_Agency.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2022/FY2022_SF133_MONTHLY_Environmental_Protection_Agency.xlsx,2819,1,Environmental Protection Agency
+2022,FY2022_SF133_MONTHLY_Executive_Office_of_the_President.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2022/FY2022_SF133_MONTHLY_Executive_Office_of_the_President.xlsx,4453,1,Executive Office of the President
+2022,FY2022_SF133_MONTHLY_General_Services_Administration.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2022/FY2022_SF133_MONTHLY_General_Services_Administration.xlsx,2778,1,General Services Administration
+2022,FY2022_SF133_MONTHLY_International_Assistance_Programs.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2022/FY2022_SF133_MONTHLY_International_Assistance_Programs.xlsx,20450,1,International Assistance Programs
+2022,FY2022_SF133_MONTHLY_Judicial_Branch.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2022/FY2022_SF133_MONTHLY_Judicial_Branch.xlsx,2475,1,Judicial Branch
+2022,FY2022_SF133_MONTHLY_Legislative_Branch.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2022/FY2022_SF133_MONTHLY_Legislative_Branch.xlsx,11172,1,Legislative Branch
+2022,FY2022_SF133_MONTHLY_National_Aeronautics_and_Space_Administration.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2022/FY2022_SF133_MONTHLY_National_Aeronautics_and_Space_Administration.xlsx,4237,1,National Aeronautics and Space Administration
+2022,FY2022_SF133_MONTHLY_National_Science_Foundation.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2022/FY2022_SF133_MONTHLY_National_Science_Foundation.xlsx,2010,1,National Science Foundation
+2022,FY2022_SF133_MONTHLY_Office_of_Personnel_Management.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2022/FY2022_SF133_MONTHLY_Office_of_Personnel_Management.xlsx,1606,1,Office of Personnel Management
+2022,FY2022_SF133_MONTHLY_Other_Defense_Civil_Programs.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2022/FY2022_SF133_MONTHLY_Other_Defense_Civil_Programs.xlsx,1626,1,Other Defense--Civil Programs
+2022,FY2022_SF133_MONTHLY_Other_Independent_Agencies.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2022/FY2022_SF133_MONTHLY_Other_Independent_Agencies.xlsx,26009,96,400 Years of African-American History Commission
+2022,FY2022_SF133_MONTHLY_Small_Business_Administration.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2022/FY2022_SF133_MONTHLY_Small_Business_Administration.xlsx,7015,1,Small Business Administration
+2022,FY2022_SF133_MONTHLY_Social_Security_Administration.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2022/FY2022_SF133_MONTHLY_Social_Security_Administration.xlsx,1835,1,Social Security Administration
+2023,2346466705.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2023/2346466705.xlsx,13469,1,Department of the Treasury
+2023,2346466706.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2023/2346466706.xlsx,17665,1,Department of Transportation
+2023,2346466707.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2023/2346466707.xlsx,13589,1,Department of Veterans Affairs
+2023,2346466709.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2023/2346466709.xlsx,3025,1,Environmental Protection Agency
+2023,2346466710.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2023/2346466710.xlsx,4524,1,Executive Office of the President
+2023,2346466712.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2023/2346466712.xlsx,2877,1,General Services Administration
+2023,2346466715.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2023/2346466715.xlsx,20070,1,International Assistance Programs
+2023,2346466716.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2023/2346466716.xlsx,2415,1,Judicial Branch
+2023,2346466717.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2023/2346466717.xlsx,11383,1,Legislative Branch
+2023,2346466718.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2023/2346466718.xlsx,4123,1,National Aeronautics and Space Administration
+2023,2346466719.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2023/2346466719.xlsx,1990,1,National Science Foundation
+2023,2346466720.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2023/2346466720.xlsx,1691,1,Office of Personnel Management
+2023,2346466722.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2023/2346466722.xlsx,1584,1,Other Defense--Civil Programs
+2023,2346466725.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2023/2346466725.xlsx,26673,98,400 Years of African-American History Commission
+2023,2346466727.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2023/2346466727.xlsx,7093,1,Small Business Administration
+2023,2346466728.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2023/2346466728.xlsx,1884,1,Social Security Administration
+2023,2346466729.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2023/2346466729.xlsx,2026,1,Corps of Engineers--Civil Works
+2023,2346466733.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2023/2346466733.xlsx,31929,1,Department of Agriculture
+2023,2346466736.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2023/2346466736.xlsx,9626,1,Department of Commerce
+2023,2346466737.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2023/2346466737.xlsx,36135,1,Department of Defense--Military Programs
+2023,2346466738.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2023/2346466738.xlsx,8798,1,Department of Education
+2023,2346466739.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2023/2346466739.xlsx,8876,1,Department of Energy
+2023,2346466741.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2023/2346466741.xlsx,38673,1,Department of Health and Human Services
+2023,2346466743.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2023/2346466743.xlsx,21912,1,Department of Homeland Security
+2023,2346466745.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2023/2346466745.xlsx,17785,1,Department of Housing and Urban Development
+2023,2346466747.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2023/2346466747.xlsx,9451,1,Department of Justice
+2023,2346466749.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2023/2346466749.xlsx,9370,1,Department of Labor
+2023,2346466751.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2023/2346466751.xlsx,11586,1,Department of State
+2023,2346466753.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2023/2346466753.xlsx,19216,1,Department of the Interior
+2024,2438300606.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2024/2438300606.xlsx,9881,1,Department of Energy
+2024,2438300607.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2024/2438300607.xlsx,8819,1,Department of Education
+2024,2438300608.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2024/2438300608.xlsx,1809,1,Social Security Administration
+2024,2438300609.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2024/2438300609.xlsx,13120,1,Department of the Treasury
+2024,2438300611.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2024/2438300611.xlsx,11937,1,Department of State
+2024,2438300612.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2024/2438300612.xlsx,9100,1,Department of Labor
+2024,2438300613.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2024/2438300613.xlsx,9571,1,Department of Justice
+2024,2438300614.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2024/2438300614.xlsx,20041,1,Department of the Interior
+2024,2438300615.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2024/2438300615.xlsx,39658,1,Department of Health and Human Services
+2024,2438300616.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2024/2438300616.xlsx,36736,1,Department of Defense--Military Programs
+2024,2438300617.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2024/2438300617.xlsx,9729,1,Department of Commerce
+2024,2438300618.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2024/2438300618.xlsx,32508,1,Department of Agriculture
+2024,2438300619.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2024/2438300619.xlsx,2468,1,Judicial Branch
+2024,2438300620.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2024/2438300620.xlsx,11361,1,Legislative Branch
+2024,2438300621.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2024/2438300621.xlsx,27672,98,400 Years of African-American History Commission
+2024,2438300622.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2024/2438300622.xlsx,1944,1,National Science Foundation
+2024,2438300623.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2024/2438300623.xlsx,1999,1,Corps of Engineers--Civil Works
+2024,2438300624.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2024/2438300624.xlsx,1537,1,Other Defense--Civil Programs
+2024,2438300625.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2024/2438300625.xlsx,20044,1,International Assistance Programs
+2024,2438300626.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2024/2438300626.xlsx,5076,1,Executive Office of the President
+2024,2438300627.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2024/2438300627.xlsx,13989,1,Department of Veterans Affairs
+2024,2438300628.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2024/2438300628.xlsx,7409,1,Small Business Administration
+2024,2438300629.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2024/2438300629.xlsx,1737,1,Office of Personnel Management
+2024,2438300630.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2024/2438300630.xlsx,4218,1,National Aeronautics and Space Administration
+2024,2438300631.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2024/2438300631.xlsx,18164,1,Department of Housing and Urban Development
+2024,2438300632.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2024/2438300632.xlsx,22991,1,Department of Homeland Security
+2024,2438300633.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2024/2438300633.xlsx,2838,1,General Services Administration
+2024,2438300634.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2024/2438300634.xlsx,18884,1,Department of Transportation
+2024,2438300635.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2024/2438300635.xlsx,3179,1,Environmental Protection Agency
+2025,FY2025_SF133_MONTHLY_Corps_of_Engineers_Civil_Works.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2025/FY2025_SF133_MONTHLY_Corps_of_Engineers_Civil_Works.xlsx,1997,1,Corps of Engineers--Civil Works
+2025,FY2025_SF133_MONTHLY_Department_of_Agriculture.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2025/FY2025_SF133_MONTHLY_Department_of_Agriculture.xlsx,33086,1,Department of Agriculture
+2025,FY2025_SF133_MONTHLY_Department_of_Commerce.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2025/FY2025_SF133_MONTHLY_Department_of_Commerce.xlsx,9994,1,Department of Commerce
+2025,FY2025_SF133_MONTHLY_Department_of_Defense_Military.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2025/FY2025_SF133_MONTHLY_Department_of_Defense_Military.xlsx,37704,1,Department of Defense--Military Programs
+2025,FY2025_SF133_MONTHLY_Department_of_Education.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2025/FY2025_SF133_MONTHLY_Department_of_Education.xlsx,8763,1,Department of Education
+2025,FY2025_SF133_MONTHLY_Department_of_Energy.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2025/FY2025_SF133_MONTHLY_Department_of_Energy.xlsx,10815,1,Department of Energy
+2025,FY2025_SF133_MONTHLY_Department_of_Health_and_Human_Services.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2025/FY2025_SF133_MONTHLY_Department_of_Health_and_Human_Services.xlsx,39640,1,Department of Health and Human Services
+2025,FY2025_SF133_MONTHLY_Department_of_Homeland_Security.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2025/FY2025_SF133_MONTHLY_Department_of_Homeland_Security.xlsx,23623,1,Department of Homeland Security
+2025,FY2025_SF133_MONTHLY_Department_of_Housing_and_Urban_Development.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2025/FY2025_SF133_MONTHLY_Department_of_Housing_and_Urban_Development.xlsx,18719,1,Department of Housing and Urban Development
+2025,FY2025_SF133_MONTHLY_Department_of_Justice.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2025/FY2025_SF133_MONTHLY_Department_of_Justice.xlsx,9973,1,Department of Justice
+2025,FY2025_SF133_MONTHLY_Department_of_Labor.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2025/FY2025_SF133_MONTHLY_Department_of_Labor.xlsx,9277,1,Department of Labor
+2025,FY2025_SF133_MONTHLY_Department_of_State.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2025/FY2025_SF133_MONTHLY_Department_of_State.xlsx,11973,1,Department of State
+2025,FY2025_SF133_MONTHLY_Department_of_Transportation.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2025/FY2025_SF133_MONTHLY_Department_of_Transportation.xlsx,19054,1,Department of Transportation
+2025,FY2025_SF133_MONTHLY_Department_of_Veterans_Affairs.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2025/FY2025_SF133_MONTHLY_Department_of_Veterans_Affairs.xlsx,14476,1,Department of Veterans Affairs
+2025,FY2025_SF133_MONTHLY_Department_of_the_Interior.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2025/FY2025_SF133_MONTHLY_Department_of_the_Interior.xlsx,20139,1,Department of the Interior
+2025,FY2025_SF133_MONTHLY_Department_of_the_Treasury.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2025/FY2025_SF133_MONTHLY_Department_of_the_Treasury.xlsx,12578,1,Department of the Treasury
+2025,FY2025_SF133_MONTHLY_Environmental_Protection_Agency.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2025/FY2025_SF133_MONTHLY_Environmental_Protection_Agency.xlsx,3283,1,Environmental Protection Agency
+2025,FY2025_SF133_MONTHLY_Executive_Office_of_the_President.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2025/FY2025_SF133_MONTHLY_Executive_Office_of_the_President.xlsx,5824,1,Executive Office of the President
+2025,FY2025_SF133_MONTHLY_General_Services_Administration.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2025/FY2025_SF133_MONTHLY_General_Services_Administration.xlsx,2942,1,General Services Administration
+2025,FY2025_SF133_MONTHLY_International_Assistance_Programs.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2025/FY2025_SF133_MONTHLY_International_Assistance_Programs.xlsx,20165,1,International Assistance Programs
+2025,FY2025_SF133_MONTHLY_Judicial_Branch.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2025/FY2025_SF133_MONTHLY_Judicial_Branch.xlsx,2519,1,Judicial Branch
+2025,FY2025_SF133_MONTHLY_Legislative_Branch.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2025/FY2025_SF133_MONTHLY_Legislative_Branch.xlsx,11431,1,Legislative Branch
+2025,FY2025_SF133_MONTHLY_National_Aeronautics_and_Space_Administration.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2025/FY2025_SF133_MONTHLY_National_Aeronautics_and_Space_Administration.xlsx,4407,1,National Aeronautics and Space Administration
+2025,FY2025_SF133_MONTHLY_National_Science_Foundation.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2025/FY2025_SF133_MONTHLY_National_Science_Foundation.xlsx,1993,1,National Science Foundation
+2025,FY2025_SF133_MONTHLY_Office_of_Personnel_Management.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2025/FY2025_SF133_MONTHLY_Office_of_Personnel_Management.xlsx,1731,1,Office of Personnel Management
+2025,FY2025_SF133_MONTHLY_Other_Defense_Civil_Programs.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2025/FY2025_SF133_MONTHLY_Other_Defense_Civil_Programs.xlsx,1658,1,Other Defense--Civil Programs
+2025,FY2025_SF133_MONTHLY_Other_Independent_Agencies.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2025/FY2025_SF133_MONTHLY_Other_Independent_Agencies.xlsx,27657,98,400 Years of African-American History Commission
+2025,FY2025_SF133_MONTHLY_Small_Business_Administration.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2025/FY2025_SF133_MONTHLY_Small_Business_Administration.xlsx,7556,1,Small Business Administration
+2025,FY2025_SF133_MONTHLY_Social_Security_Administration.xlsx,/Users/abigailhaddad/Documents/repos/apportion/raw_data/2025/FY2025_SF133_MONTHLY_Social_Security_Administration.xlsx,1734,1,Social Security Administration
+2026,FY2026_SF133_MONTHLY_Corps_of_Engineers_Civil_Works.xlsx,scratch/raw2026/FY2026_SF133_MONTHLY_Corps_of_Engineers_Civil_Works.xlsx,1945,1,Corps of Engineers--Civil Works
+2026,FY2026_SF133_MONTHLY_Department_of_Agriculture.xlsx,scratch/raw2026/FY2026_SF133_MONTHLY_Department_of_Agriculture.xlsx,32739,1,Department of Agriculture
+2026,FY2026_SF133_MONTHLY_Department_of_Commerce.xlsx,scratch/raw2026/FY2026_SF133_MONTHLY_Department_of_Commerce.xlsx,10045,1,Department of Commerce
+2026,FY2026_SF133_MONTHLY_Department_of_Defense_Military.xlsx,scratch/raw2026/FY2026_SF133_MONTHLY_Department_of_Defense_Military.xlsx,40299,1,Department of Defense--Military Programs
+2026,FY2026_SF133_MONTHLY_Department_of_Education.xlsx,scratch/raw2026/FY2026_SF133_MONTHLY_Department_of_Education.xlsx,8627,1,Department of Education
+2026,FY2026_SF133_MONTHLY_Department_of_Energy.xlsx,scratch/raw2026/FY2026_SF133_MONTHLY_Department_of_Energy.xlsx,10609,1,Department of Energy
+2026,FY2026_SF133_MONTHLY_Department_of_Health_and_Human_Services.xlsx,scratch/raw2026/FY2026_SF133_MONTHLY_Department_of_Health_and_Human_Services.xlsx,40417,1,Department of Health and Human Services
+2026,FY2026_SF133_MONTHLY_Department_of_Homeland_Security.xlsx,scratch/raw2026/FY2026_SF133_MONTHLY_Department_of_Homeland_Security.xlsx,24206,1,Department of Homeland Security
+2026,FY2026_SF133_MONTHLY_Department_of_Housing_and_Urban_Development.xlsx,scratch/raw2026/FY2026_SF133_MONTHLY_Department_of_Housing_and_Urban_Development.xlsx,16739,1,Department of Housing and Urban Development
+2026,FY2026_SF133_MONTHLY_Department_of_Justice.xlsx,scratch/raw2026/FY2026_SF133_MONTHLY_Department_of_Justice.xlsx,9883,1,Department of Justice
+2026,FY2026_SF133_MONTHLY_Department_of_Labor.xlsx,scratch/raw2026/FY2026_SF133_MONTHLY_Department_of_Labor.xlsx,9182,1,Department of Labor
+2026,FY2026_SF133_MONTHLY_Department_of_State.xlsx,scratch/raw2026/FY2026_SF133_MONTHLY_Department_of_State.xlsx,12170,1,Department of State
+2026,FY2026_SF133_MONTHLY_Department_of_Transportation.xlsx,scratch/raw2026/FY2026_SF133_MONTHLY_Department_of_Transportation.xlsx,19361,1,Department of Transportation
+2026,FY2026_SF133_MONTHLY_Department_of_Veterans_Affairs.xlsx,scratch/raw2026/FY2026_SF133_MONTHLY_Department_of_Veterans_Affairs.xlsx,14491,1,Department of Veterans Affairs
+2026,FY2026_SF133_MONTHLY_Department_of_the_Interior.xlsx,scratch/raw2026/FY2026_SF133_MONTHLY_Department_of_the_Interior.xlsx,20712,1,Department of the Interior
+2026,FY2026_SF133_MONTHLY_Department_of_the_Treasury.xlsx,scratch/raw2026/FY2026_SF133_MONTHLY_Department_of_the_Treasury.xlsx,12807,1,Department of the Treasury
+2026,FY2026_SF133_MONTHLY_Environmental_Protection_Agency.xlsx,scratch/raw2026/FY2026_SF133_MONTHLY_Environmental_Protection_Agency.xlsx,3304,1,Environmental Protection Agency
+2026,FY2026_SF133_MONTHLY_Executive_Office_of_the_President.xlsx,scratch/raw2026/FY2026_SF133_MONTHLY_Executive_Office_of_the_President.xlsx,5991,1,Executive Office of the President
+2026,FY2026_SF133_MONTHLY_General_Services_Administration.xlsx,scratch/raw2026/FY2026_SF133_MONTHLY_General_Services_Administration.xlsx,2951,1,General Services Administration
+2026,FY2026_SF133_MONTHLY_International_Assistance_Programs.xlsx,scratch/raw2026/FY2026_SF133_MONTHLY_International_Assistance_Programs.xlsx,19216,1,International Assistance Programs
+2026,FY2026_SF133_MONTHLY_Judicial_Branch.xlsx,scratch/raw2026/FY2026_SF133_MONTHLY_Judicial_Branch.xlsx,2464,1,Judicial Branch
+2026,FY2026_SF133_MONTHLY_Legislative_Branch.xlsx,scratch/raw2026/FY2026_SF133_MONTHLY_Legislative_Branch.xlsx,11140,1,Legislative Branch
+2026,FY2026_SF133_MONTHLY_National_Aeronautics_and_Space_Administration.xlsx,scratch/raw2026/FY2026_SF133_MONTHLY_National_Aeronautics_and_Space_Administration.xlsx,4340,1,National Aeronautics and Space Administration
+2026,FY2026_SF133_MONTHLY_National_Science_Foundation.xlsx,scratch/raw2026/FY2026_SF133_MONTHLY_National_Science_Foundation.xlsx,2011,1,National Science Foundation
+2026,FY2026_SF133_MONTHLY_Office_of_Personnel_Management.xlsx,scratch/raw2026/FY2026_SF133_MONTHLY_Office_of_Personnel_Management.xlsx,1713,1,Office of Personnel Management
+2026,FY2026_SF133_MONTHLY_Other_Defense_Civil_Programs.xlsx,scratch/raw2026/FY2026_SF133_MONTHLY_Other_Defense_Civil_Programs.xlsx,1721,1,Other Defense--Civil Programs
+2026,FY2026_SF133_MONTHLY_Other_Independent_Agencies.xlsx,scratch/raw2026/FY2026_SF133_MONTHLY_Other_Independent_Agencies.xlsx,27416,98,400 Years of African-American History Commission
+2026,FY2026_SF133_MONTHLY_Small_Business_Administration.xlsx,scratch/raw2026/FY2026_SF133_MONTHLY_Small_Business_Administration.xlsx,7679,1,Small Business Administration
+2026,FY2026_SF133_MONTHLY_Social_Security_Administration.xlsx,scratch/raw2026/FY2026_SF133_MONTHLY_Social_Security_Administration.xlsx,1768,1,Social Security Administration
